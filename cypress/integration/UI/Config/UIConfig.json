@@ -1,0 +1,10 @@
+{
+    "extends":"./cypress.json",
+    "BaseURI":"https://demoqa.com/",
+    "env":
+    {
+        
+    }
+    
+
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "580feea28470955c",
+  "name" : "TC001:Validate API Test",
+  "time" : {
+    "start" : 1642931864991,
+    "stop" : 1642931866283,
+    "duration" : 1292
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91f61fa32c63819d",
+  "name" : "TC001:Validate HomePage",
+  "time" : {
+    "start" : 1642932327513,
+    "stop" : 1642932343927,
+    "duration" : 16414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

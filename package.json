@@ -1,0 +1,26 @@
+{
+  "name": "cypress_test",
+  "version": "1.0.0",
+  "description": "Testing Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "TestUI":"npx cypress run --config-file ./cypress/integration/UI/Config/UIConfig.json --spec cypress/integration/UI/*.feature --env allure=true --headed",
+    "TestAPI":"npx cypress run --config-file ./cypress/integration/API/Config/APIConfig.json --spec cypress/integration/API/*.feature --env allure=true --headed ",
+    "AllureReport":"allure generate allure-results --clean -o allure-report",
+    "AllureOpen":"allure open Allure-report --port 9999"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "author": "Ranjit",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.23.0",
+    "allure-commandline": "^2.17.2",
+    "cypress": "^9.3.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^1.6.2"
+  }
+}

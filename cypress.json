@@ -1,0 +1,8 @@
+{
+    "testFiles": "**/*.feature",
+    "chromeWebSecurity": false,
+    "env":
+    {
+        
+    }
+}

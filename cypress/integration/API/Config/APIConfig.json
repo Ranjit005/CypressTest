@@ -1,0 +1,10 @@
+{
+    "extends":"./cypress.json",
+    "BaseURI":"https://gorest.co.in/public/",
+    "env":
+    {
+        "Version":"v1"
+    }
+    
+
+}

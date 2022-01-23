@@ -1,0 +1,47 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "API",
+    "children" : [ {
+      "name" : "TC001:Validate API Test",
+      "uid" : "580feea28470955c",
+      "parentUid" : "14fa7b099890ed134a386db0936127bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642931864991,
+        "stop" : 1642931866283,
+        "duration" : 1292
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "14fa7b099890ed134a386db0936127bb"
+  }, {
+    "name" : "UI",
+    "children" : [ {
+      "name" : "TC001:Validate HomePage",
+      "uid" : "91f61fa32c63819d",
+      "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642932327513,
+        "stop" : 1642932343927,
+        "duration" : 16414
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6bfa3d1bea669a46b5644d20357bd4d8"
+  } ]
+}
