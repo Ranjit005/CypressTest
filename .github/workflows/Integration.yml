@@ -15,7 +15,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        containers: [1, 2]
+        containers: [1, 2, 3]
     steps:
       - uses: actions/checkout@v2
 
@@ -23,9 +23,16 @@ jobs:
         run: |
           npm ci
           $(npm bin)/cypress verify
-      - name: Run Cypress tests
-        run: npm run Cypress-All
-        continue-on-error: true
+     # - name: Run Cypress tests
+     #   run: npm run Cypress-All
+     #   continue-on-error: true
+
+        - name: Cypress run
+        uses: cypress-io/github-action@v2
+        with:
+          parallel: true
+
+
 
       - name: Upload Screenshot Artifacts
         uses: actions/upload-artifact@v1
