@@ -5,7 +5,8 @@
     "projectId": "cwpk1r",
     "env":
     {
-        "Version":"v1" 
+        "Version":"v1",
+        "allure":true 
     }    
 
 }

@@ -4,7 +4,8 @@
     "projectId": "cwpk1r",
     "env":
     {
-        "STG":"ABCD"
+        "STG":"ABCD",
+        "allure":true
     }
           
     
