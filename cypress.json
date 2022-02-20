@@ -1,8 +1,11 @@
 {
     "testFiles": "**/*.feature",
     "chromeWebSecurity": false,
+    "projectId": "cwpk1r",
     "env":
     {
-        
+        "STG":"ABCD"
     }
+          
+    
 }

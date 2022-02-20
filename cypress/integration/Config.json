@@ -1,0 +1,11 @@
+{
+    "extends":"./cypress.json",
+    "BaseURIUI":"https://demoqa.com/",
+    "BaseURIAPI":"https://gorest.co.in/public/",
+    "projectId": "cwpk1r",
+    "env":
+    {
+        "Version":"v1" 
+    }    
+
+}

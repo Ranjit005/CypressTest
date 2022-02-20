@@ -4,7 +4,7 @@ module.exports=class Endpoint
     static getPostcallUrl()
     {
         var url=""
-        var URI=Cypress.config().BaseURI
+        var URI=Cypress.config().BaseURIAPI
         var Version=Cypress.env('Version')
         var Endpoint="/users"
         url=URI+Version+Endpoint
@@ -13,7 +13,7 @@ module.exports=class Endpoint
     static getcallUrl()
     {
         var url=""
-        var URI=Cypress.config().BaseURI
+        var URI=Cypress.config().BaseURIAPI
         var Version=Cypress.env('Version')
         var Endpoint="/users"
         url=URI+Version+Endpoint

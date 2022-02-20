@@ -7,7 +7,7 @@ import TestDef from "./TestDef"
 Given('User Open Url',() =>{
 
     //cy.visit('https://demoqa.com/')
-    cy.visit(Cypress.config().BaseURI)
+    cy.visit(Cypress.config().BaseURIUI)
 })
 Then('User Click on Element',() =>{
 CommonDef.clickingonElements()
