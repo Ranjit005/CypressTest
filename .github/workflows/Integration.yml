@@ -33,7 +33,9 @@ jobs:
           browser: chrome
           parallel: true
           record: true
-          key: 50aa529e-7c58-42b3-a70f-11b9d650da26
+        env:
+          CYPRESS_PROJECT_ID: cwpk1r
+          CYPRESS_RECORD_KEY: 50aa529e-7c58-42b3-a70f-11b9d650da26
           
       - name: Upload Screenshot Artifacts
         uses: actions/upload-artifact@v1
