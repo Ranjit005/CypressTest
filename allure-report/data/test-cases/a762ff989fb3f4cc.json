@@ -1,5 +1,5 @@
 {
-  "uid" : "4e5f82d68c1cdcdd",
+  "uid" : "a762ff989fb3f4cc",
   "name" : "TC004:Validate API Test",
   "fullName" : "TC004:Validate API Test",
   "historyId" : "c794df0de679a908cebc0733ea684a45",
@@ -211,9 +211,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "74ce3e1621b48c8e",
+      "uid" : "ec94348f81e4852a",
       "name" : "video recording",
-      "source" : "74ce3e1621b48c8e.mp4",
+      "source" : "ec94348f81e4852a.mp4",
       "type" : "video/mp4",
       "size" : 501703
     } ],
@@ -239,14 +239,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ "Regression" ]
   },
-  "source" : "4e5f82d68c1cdcdd.json",
+  "source" : "a762ff989fb3f4cc.json",
   "parameterValues" : [ ]
 }
