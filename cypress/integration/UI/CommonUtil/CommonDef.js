@@ -10,6 +10,6 @@ module.exports=class CommonDef
         cy.get(':nth-child(1) > :nth-child(1) > .card-body > h5').click()
         //cy.xpath(CommonLocator.getElementLink).click()
 
-        
+        //Test Github
     }
 }
