@@ -26,9 +26,14 @@ jobs:
      #   run: npm run Cypress-All
      #   continue-on-error: true
       - name: Cypress run
-        run: npm run Cypress-All
+        uses: cypress-io/github-action@v2
         with:
+          config-file: cypress/integration/Config.json
+          spec: cypress/integration/*/*.feature
+          browser: chrome
           parallel: true
+          record: true
+          key: 50aa529e-7c58-42b3-a70f-11b9d650da26
           
       - name: Upload Screenshot Artifacts
         uses: actions/upload-artifact@v1
