@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Feb 20 13:12:23 GMT 2022","Sun Feb 20 13:12:23 GMT 2022","641","","API","","","","TC003:Validate API Test",""
+"passed","Sun Feb 20 13:12:30 GMT 2022","Sun Feb 20 13:12:31 GMT 2022","638","","API","","","","TC004:Validate API Test",""
+"passed","Sun Feb 20 13:13:08 GMT 2022","Sun Feb 20 13:13:12 GMT 2022","3368","","UI","","","","TC002:Validate HomePage",""
+"passed","Sun Feb 20 13:13:21 GMT 2022","Sun Feb 20 13:13:24 GMT 2022","3589","","UI","","","","TC003:Validate HomePage",""
+"passed","Sun Feb 20 13:12:05 GMT 2022","Sun Feb 20 13:12:07 GMT 2022","1580","","API","","","","TC001:Validate API Test",""
+"passed","Sun Feb 20 13:12:15 GMT 2022","Sun Feb 20 13:12:16 GMT 2022","636","","API","","","","TC002:Validate API Test",""
+"passed","Sun Feb 20 13:12:40 GMT 2022","Sun Feb 20 13:12:46 GMT 2022","6121","","UI","","","","TC001:Validate HomePage",""
