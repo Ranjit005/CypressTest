@@ -1,0 +1,71 @@
+[ {
+  "uid" : "3ca44a2297557b6d",
+  "name" : "TC002:Validate API Test",
+  "time" : {
+    "start" : 1645361246490,
+    "stop" : 1645361247207,
+    "duration" : 717
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b329e393cb25b21c",
+  "name" : "TC003:Validate HomePage",
+  "time" : {
+    "start" : 1645361333536,
+    "stop" : 1645361337829,
+    "duration" : 4293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c98b059ec10922f9",
+  "name" : "TC002:Validate HomePage",
+  "time" : {
+    "start" : 1645361317695,
+    "stop" : 1645361321971,
+    "duration" : 4276
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5604fb0b7fe7df79",
+  "name" : "TC003:Validate API Test",
+  "time" : {
+    "start" : 1645361255027,
+    "stop" : 1645361255718,
+    "duration" : 691
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a984b086e2620edf",
+  "name" : "TC004:Validate API Test",
+  "time" : {
+    "start" : 1645361263532,
+    "stop" : 1645361264224,
+    "duration" : 692
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bc4e11bb43147ea",
+  "name" : "TC001:Validate API Test",
+  "time" : {
+    "start" : 1645361235236,
+    "stop" : 1645361236821,
+    "duration" : 1585
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d8b90ccf4e027b7",
+  "name" : "TC001:Validate HomePage",
+  "time" : {
+    "start" : 1645361275657,
+    "stop" : 1645361287150,
+    "duration" : 11493
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
