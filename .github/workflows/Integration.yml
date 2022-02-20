@@ -27,8 +27,6 @@ jobs:
           $(npm bin)/cypress verify
       - name: Run Cypress tests
         run: npm run Cypress-All
-        with:
-          parallel: true
         continue-on-error: true
 
       - name: Upload Screenshot Artifacts
