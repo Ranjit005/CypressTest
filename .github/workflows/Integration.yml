@@ -21,6 +21,23 @@ jobs:
       - uses: actions/setup-java@v1
         with:
           java-version: 1.8
+      - name: Check Cypress cache
+        run: |
+            npx cypress cache path
+            npx cypress cache list
+      - name: restore / cache the binary
+        id: cache-cypress
+        uses: actions/cache@v1
+        with:
+            path: ~/.cache/Cypress
+            key: >-
+                cypress-cache-v2-${{ runner.os }}-${{ hashFiles('**/package.json')
+                }}
+      - name: Prepare Allure history
+        run: |
+            rm -r allure-results/*
+            cp -r ./allure-report/history ./allure-results/history
+            rm -r allure-report/*
       - name: Install cypress and verify
         run: |
           npm ci
@@ -30,17 +47,21 @@ jobs:
         continue-on-error: true          
           
       - name: Generate Allure report
-        run: npm run AllureReport
+        if: always()
+        uses: QuintilianoNery/action-allure-report-V2@0.2.0
 
-      - name: Copy test execution videos, screenshots and reports
+      - name: Commit report results
+        if: always()
         run: |
-          mkdir public
-          cp -r cypress/videos public/videos
-          cp -a allure-report/. public
-          cp -r allure-results public/allure-results
-      - name: Deploy report page to GitHub Page
-        uses: peaceiris/actions-gh-pages@v3
+            git config --local user.email "barikranjit461@gmail.com"
+            git config --local user.name "Ranjit005"
+            git add allure-report -f
+            git add allure-results -f
+            git commit -m "[chore] autogenerate Allure report" -a
+      - name: Push changes
+        if: always()
+        uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+            github_token: '${{ secrets.GITHUB_TOKEN }}'
+            force: true
 
