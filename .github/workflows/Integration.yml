@@ -22,9 +22,6 @@ jobs:
         run: |
           npm ci
           $(npm bin)/cypress verify
-     # - name: Run Cypress tests
-     #   run: npm run Cypress-All
-     #   continue-on-error: true
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
