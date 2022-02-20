@@ -1,80 +1,44 @@
-name: allure-report
-'on':
-    push:
-        branches:
-            - main
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Test Different Action of GitHub Action
+on:
+  push:
+    branches:
+      - 'main'
+
 jobs:
-    generate-report:
-        runs-on: ubuntu-latest
-        container: cypress/browsers:node12.19.0-chrome86-ff82
-        strategy:
-          fail-fast: false
-          matrix:
-            containers: [1]
-        steps:
-            - uses: actions/checkout@v2
-            - name: Download Cypress
-              uses: bahmutov/npm-install@v1
-              env:
-                  CYPRESS_INSTALL_BINARY: 0
+  cypress-test:
+    name: Run on Chrome 97
+    runs-on: ubuntu-latest
+    container: cypress/browsers:node12.19.0-chrome86-ff82
+    strategy:
+      fail-fast: false
+      matrix:
+        containers: [1]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+      - name: Install cypress and verify
+        run: |
+          npm ci
+          $(npm bin)/cypress verify
+      - name: Cypress run
+        run: npm run Cypress-All          
+          
+      - name: Generate Allure report
+        run: npm run AllureReport
 
-            - name: Check Cypress cache
-              run: |
-                  npx cypress cache path
-                  npx cypress cache list
-            - name: restore / cache the binary
-              id: cache-cypress
-              uses: actions/cache@v1
-              with:
-                  path: ~/.cache/Cypress
-                  key: >-
-                      cypress-cache-v2-${{ runner.os }}-${{ hashFiles('**/package.json')
-                      }}
-            - name: Prepare Allure history
-              run: |
-                  mkdir -p allure-history
-                  echo get newest folder from allure history
-                  PREVIOUS_HISTORY=$(ls -td allure-history/* | head -1) >/dev/null 2>&1
-                  echo get id of this folder
-                  PREVIOUS_HISTORY_ID=${PREVIOUS_HISTORY:15}
-                  [ -z "$PREVIOUS_HISTORY_ID" ] && PREVIOUS_HISTORY_ID=0
-                  CURRENT=1
-                  NEXT=2
-                  echo current actual report will be moved to id+1 folder
-                  CURRENTID=$(($PREVIOUS_HISTORY_ID+$CURRENT)) 
-                  echo new report will use id+2 as future allure-history folder name
-                  NEXTID=$(($PREVIOUS_HISTORY_ID+$NEXT)) 
-                  echo allure history contains 20 latest builds only, so we should remove old ones
-                  MAX="20"
-                  [[ "$NEXTID" -gt "$MAX" ]] && rm -r allure-history/$(($NEXTID-$MAX))
-                  echo move actual report to history 
-                  echo prepare history data + executor info for future run
-                  mkdir -p allure-history/${CURRENTID}/allure-results
-                  mv allure-results allure-history/${CURRENTID}/
-                  mkdir -p allure-results && cp -r allure-report/history allure-results/history
-                  mv allure-report allure-history/${CURRENTID}/allure-report
-                  echo write links that report could be accessed by in future
-                  echo "{\"name\": \"gh action\",\"buildOrder\": \"${NEXTID}\",\"buildName\": \"gh action\",\"buildUrl\": \"https://github.com/Shelex/cypress-allure-historical-example/actions/runs/${{ github.run_id }}\",\"reportUrl\": \"https://shelex.github.io/cypress-allure-historical-example/allure-history/${NEXTID}/allure-report\",\"reportName\": \"test report\"}" > allure-results/executor.json
-            - name: Install Cypress
-              run: |
-                  npx cypress install
-                  npx cypress cache list
-            - name: Run Cypress
-              run: npm run Cypress-All
+      - name: Copy test execution videos, screenshots and reports
+        run: |
+          mkdir public
+          cp -r cypress/videos public/videos
+          cp -a allure-report/. public
+          cp -r allure-results public/allure-results
+      - name: Deploy report page to GitHub Page
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./public
 
-            - name: Generate Allure report
-              if: always()
-              uses: afiore/action-allure-report@v0.1.0
-
-            - name: Commit report results
-              if: always()
-              run: |
-                  git add allure-report -f
-                  git add allure-results -f
-                  git add allure-history -f
-                  git commit -m "[chore] autogenerate Allure report" -a
-            - name: Push changes
-              if: always()
-              uses: ad-m/github-push-action@master
-              with:
-                  force: true
