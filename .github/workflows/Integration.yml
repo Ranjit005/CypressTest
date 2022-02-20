@@ -33,11 +33,6 @@ jobs:
             key: >-
                 cypress-cache-v2-${{ runner.os }}-${{ hashFiles('**/package.json')
                 }}
-      - name: Prepare Allure history
-        run: |
-            rm -r allure-results/*
-            cp -r ./allure-report/history ./allure-results/history
-            rm -r allure-report/*
       - name: Install cypress and verify
         run: |
           npm ci
