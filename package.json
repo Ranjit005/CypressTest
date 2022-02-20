@@ -9,7 +9,7 @@
     "TestAPI": "npx cypress run --config-file ./cypress/integration/API/Config/APIConfig.json --spec cypress/integration/API/*.feature --env allure=true --headed ",
     "AllureReport": "allure generate allure-results --clean -o allure-report",
     "AllureOpen": "allure open Allure-report --port 9999",
-    "Cypress-All":"npx cypress run --config-file ./cypress/integration/Config.json --spec cypress/integration/*/*.feature --env allure=true --headed --record --key 50aa529e-7c58-42b3-a70f-11b9d650da26"
+    "Cypress-All":"npx cypress run --config-file ./cypress/integration/Config.json --spec cypress/integration/*/*.feature --env allure=true --browser chrome --headed --record --key 50aa529e-7c58-42b3-a70f-11b9d650da26"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
