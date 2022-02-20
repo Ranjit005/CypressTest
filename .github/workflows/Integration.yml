@@ -45,7 +45,6 @@ jobs:
         run: |
           mkdir public
           cp -r cypress/videos public/videos
-          cp -r cypress/screenshots public/screenshots
           cp -a allure-report/. public
           cp -r allure-results public/allure-results
       - name: Deploy report page to GitHub Page
