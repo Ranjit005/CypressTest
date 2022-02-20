@@ -18,6 +18,9 @@ jobs:
         containers: [1, 2, 3]
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
       - name: Install cypress and verify
         run: |
           npm ci
@@ -33,17 +36,20 @@ jobs:
         env:
           CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          allure: true
           
-      - name: Upload Screenshot Artifacts
-        uses: actions/upload-artifact@v1
-        #if: failure()
-        with:
-          name: cypress-screenshots
-          path: cypress/screenshots
+      - name: Generate Allure report
+        run: npm run AllureReport
 
-      - name: Upload Video Artifacts
-        uses: actions/upload-artifact@v1
-        #if: failure()
+      - name: Copy test execution videos, screenshots and reports
+        run: |
+          mkdir public
+          cp -r cypress/videos public/videos
+          cp -r cypress/screenshots public/screenshots
+          cp -a allure-report/. public
+          cp -r allure-results public/allure-results
+      - name: Deploy report page to GitHub Page
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          name: cypress-videos
-          path: cypress/videos
+          publish_dir: ./public
+
