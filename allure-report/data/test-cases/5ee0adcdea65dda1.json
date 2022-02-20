@@ -1,0 +1,268 @@
+{
+  "uid" : "5ee0adcdea65dda1",
+  "name" : "TC001:Validate API Test",
+  "fullName" : "TC001:Validate API Test",
+  "historyId" : "a1430cd4396ea6d56fa0213f6fd58bff",
+  "time" : {
+    "start" : 1645363744439,
+    "stop" : 1645363746058,
+    "duration" : 1619
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1645363744442,
+        "stop" : 1645363744443,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then User Validates Post Call",
+      "time" : {
+        "start" : 1645363744459,
+        "stop" : 1645363745748,
+        "duration" : 1289
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log https://gorest.co.in/public/v1/users",
+        "time" : {
+          "start" : 1645363744460,
+          "stop" : 1645363744465,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 201 https://gorest.co.in/public/v1/users",
+        "time" : {
+          "start" : 1645363744466,
+          "stop" : 1645363745730,
+          "duration" : 1264
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log {\"body\":{\"meta\":null,\"data\":{\"id\":4057,\"name\":\"tXkDWeRsUv\",\"email\":\"9Mr28WYoxo@gmail.com\",\"gender\":\"male\",\"status\":\"active\"}},\"headers\":{\"server\":\"nginx\",\"date\":\"Sun, 20 Feb 2022 13:29:05 GMT\",\"content-type\":\"application/json; charset=utf-8\",\"transfer-encoding\":\"chunked\",\"connection\":\"keep-alive\",\"x-frame-options\":\"SAMEORIGIN\",\"x-xss-protection\":\"0\",\"x-content-type-options\":\"nosniff\",\"x-download-options\":\"noopen\",\"x-permitted-cross-domain-policies\":\"none\",\"referrer-policy\":\"strict-origin-when-cross-origin\",\"x-ratelimit-limit\":\"90\",\"x-ratelimit-remaining\":\"88\",\"x-ratelimit-reset\":\"1\",\"location\":\"https://gorest.co.in/public/v1/users/4057\",\"etag\":\"W/\\\"ed065863913eac5d15305223b7aa3611\\\"\",\"cache-control\":\"max-age=0, private, must-revalidate\",\"x-request-id\":\"b860789c-1489-4188-92da-463a55e6e68c\",\"x-runtime\":\"0.039876\",\"strict-transport-security\":\"max-age=63072000; includeSubDomains\",\"vary\":\"Origin\"},\"status\":201,\"statusText\":\"Created\",\"isOkStatusCode\":true,\"requestHeaders\":{\"Connection\":\"keep-alive\",\"authorization\":\"Bearer 4b4c8f088b43abd2c4328d13f40228324cda0ef0b05a86faaacb6fbd31a3124d\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/86.0.4240.193 Safari/537.36\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate\",\"content-type\":\"application/json\",\"content-length\":86},\"requestBody\":\"{\\\"name\\\":\\\"tXkDWeRsUv\\\",\\\"email\\\":\\\"9Mr28WYoxo@gmail.com\\\",\\\"gender\\\":\\\"Male\\\",\\\"status\\\":\\\"Active\\\"}\",\"duration\":1213,\"allRequestResponses\":[{\"Request Body\":\"{\\\"name\\\":\\\"tXkDWeRsUv\\\",\\\"email\\\":\\\"9Mr28WYoxo@gmail.com\\\",\\\"gender\\\":\\\"Male\\\",\\\"status\\\":\\\"Active\\\"}\",\"Request Headers\":{\"Connection\":\"keep-alive\",\"authorization\":\"Bearer 4b4c8f088b43abd2c4328d13f40228324cda0ef0b05a86faaacb6fbd31a3124d\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/86.0.4240.193 Safari/537.36\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate\",\"content-type\":\"application/json\",\"content-length\":86},\"Request URL\":\"https://gorest.co.in/public/v1/users\",\"Response Body\":{\"meta\":null,\"data\":{\"id\":4057,\"name\":\"tXkDWeRsUv\",\"email\":\"9Mr28WYoxo@gmail.com\",\"gender\":\"male\",\"status\":\"active\"}},\"Response Headers\":{\"server\":\"nginx\",\"date\":\"Sun, 20 Feb 2022 13:29:05 GMT\",\"content-type\":\"application/json; charset=utf-8\",\"transfer-encoding\":\"chunked\",\"connection\":\"keep-alive\",\"x-frame-options\":\"SAMEORIGIN\",\"x-xss-protection\":\"0\",\"x-content-type-options\":\"nosniff\",\"x-download-options\":\"noopen\",\"x-permitted-cross-domain-policies\":\"none\",\"referrer-policy\":\"strict-origin-when-cross-origin\",\"x-ratelimit-limit\":\"90\",\"x-ratelimit-remaining\":\"88\",\"x-ratelimit-reset\":\"1\",\"location\":\"https://gorest.co.in/public/v1/users/4057\",\"etag\":\"W/\\\"ed065863913eac5d15305223b7aa3611\\\"\",\"cache-control\":\"max-age=0, private, must-revalidate\",\"x-request-id\":\"b860789c-1489-4188-92da-463a55e6e68c\",\"x-runtime\":\"0.039876\",\"strict-transport-security\":\"max-age=63072000; includeSubDomains\",\"vary\":\"Origin\"},\"Response Status\":201}]}",
+        "time" : {
+          "start" : 1645363745738,
+          "stop" : 1645363745744,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then User Validates Get Call",
+      "time" : {
+        "start" : 1645363745748,
+        "stop" : 1645363746044,
+        "duration" : 296
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET 200 https://gorest.co.in/public/v1/users",
+        "time" : {
+          "start" : 1645363745749,
+          "stop" : 1645363746023,
+          "duration" : 274
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log {\"body\":{\"meta\":{\"pagination\":{\"total\":3468,\"pages\":174,\"page\":1,\"limit\":20,\"links\":{\"previous\":null,\"current\":\"https://gorest.co.in/public/v1/users?page=1\",\"next\":\"https://gorest.co.in/public/v1/users?page=2\"}}},\"data\":[{\"id\":4057,\"name\":\"tXkDWeRsUv\",\"email\":\"9Mr28WYoxo@gmail.com\",\"gender\":\"male\",\"status\":\"active\"},{\"id\":4053,\"name\":\"jPKaQUOEQR\",\"email\":\"DPCidWwlJZ@gmail.com\",\"gender\":\"male\",\"status\":\"active\"},{\"id\":4052,\"name\":\"DnTmGJTjHQ\",\"email\":\"EjmEWG8g6T@gmail.com\",\"gender\":\"male\",\"status\":\"active\"},{\"id\":4051,\"name\":\"mGUzkIfwLa\",\"email\":\"W0Nc5X2seH@gmail.com\",\"gender\":\"male\",\"status\":\"active\"},{\"id\":4050,\"name\":\"gxFaQHbbNl\",\"email\":\"5Ob3U67N64@gmail.com\",\"gender\":\"male\",\"status\":\"active\"},{\"id\":4049,\"name\":\"gLMjaAVTdl\",\"email\":\"X1gXmtLDdQ@gmail.com\",\"gender\":\"male\",\"status\":\"active\"},{\"id\":4048,\"name\":\"oCuLbTZfmG\",\"email\":\"qcVupjiz8s@gmail.com\",\"gender\":\"male\",\"status\":\"active\"},{\"id\":4047,\"name\":\"gcXlvzGIeG\",\"email\":\"IKZZ1JDNqo@gmail.com\",\"gender\":\"male\",\"status\":\"active\"},{\"id\":4046,\"name\":\"BlABVhPLfq\",\"email\":\"tgyyn6RK4l@gmail.com\",\"gender\":\"male\",\"status\":\"active\"},{\"id\":4045,\"name\":\"sBQNitWHDY\",\"email\":\"0ZQD6vKTtV@gmail.com\",\"gender\":\"male\",\"status\":\"active\"},{\"id\":4044,\"name\":\"dUbJTgIfDm\",\"email\":\"umI2OjGVh2@gmail.com\",\"gender\":\"male\",\"status\":\"active\"},{\"id\":4043,\"name\":\"BXWtjjuuXN\",\"email\":\"9dbVA0JTcU@gmail.com\",\"gender\":\"male\",\"status\":\"active\"},{\"id\":4042,\"name\":\"RYXookdNWu\",\"email\":\"wOsCbtKOJ4@gmail.com\",\"gender\":\"male\",\"status\":\"active\"},{\"id\":4035,\"name\":\"KLFRlRpauM\",\"email\":\"UcCOCmdqs7@gmail.com\",\"gender\":\"male\",\"status\":\"active\"},{\"id\":4034,\"name\":\"bQhRmvJmMZ\",\"email\":\"GrdgFBcdQG@gmail.com\",\"gender\":\"male\",\"status\":\"active\"},{\"id\":4033,\"name\":\"kVPsbiSPzn\",\"email\":\"C08iyoGpgC@gmail.com\",\"gender\":\"male\",\"status\":\"active\"},{\"id\":4032,\"name\":\"KLgotYLrWC\",\"email\":\"Wp9lIB6UUD@gmail.com\",\"gender\":\"male\",\"status\":\"active\"},{\"id\":4024,\"name\":\"aiMZxNuxvI\",\"email\":\"aV64BoKbfj@gmail.com\",\"gender\":\"male\",\"status\":\"active\"},{\"id\":4023,\"name\":\"hYwyOZRpYL\",\"email\":\"bzKKQPVbPa@gmail.com\",\"gender\":\"male\",\"status\":\"active\"},{\"id\":4022,\"name\":\"wOEgRtYTSF\",\"email\":\"t6tBZm1k2j@gmail.com\",\"gender\":\"male\",\"status\":\"active\"}]},\"headers\":{\"server\":\"nginx\",\"date\":\"Sun, 20 Feb 2022 13:29:05 GMT\",\"content-type\":\"application/json; charset=utf-8\",\"transfer-encoding\":\"chunked\",\"connection\":\"keep-alive\",\"vary\":\"Accept-Encoding, Origin\",\"x-frame-options\":\"SAMEORIGIN\",\"x-xss-protection\":\"0\",\"x-content-type-options\":\"nosniff\",\"x-download-options\":\"noopen\",\"x-permitted-cross-domain-policies\":\"none\",\"referrer-policy\":\"strict-origin-when-cross-origin\",\"x-ratelimit-limit\":\"90\",\"x-ratelimit-remaining\":\"89\",\"x-ratelimit-reset\":\"2\",\"etag\":\"W/\\\"e542a54b3bbdd6e22ad3c38409b954be\\\"\",\"cache-control\":\"max-age=0, private, must-revalidate\",\"x-request-id\":\"acf7a83d-1f82-4a15-8893-48c97e66f476\",\"x-runtime\":\"0.027834\",\"strict-transport-security\":\"max-age=63072000; includeSubDomains\",\"content-encoding\":\"gzip\"},\"status\":200,\"statusText\":\"OK\",\"isOkStatusCode\":true,\"requestHeaders\":{\"Connection\":\"keep-alive\",\"authorization\":\"Bearer 4b4c8f088b43abd2c4328d13f40228324cda0ef0b05a86faaacb6fbd31a3124d\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/86.0.4240.193 Safari/537.36\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate\"},\"duration\":256,\"allRequestResponses\":[{\"Request Body\":null,\"Request Headers\":{\"Connection\":\"keep-alive\",\"authorization\":\"Bearer 4b4c8f088b43abd2c4328d13f40228324cda0ef0b05a86faaacb6fbd31a3124d\",\"user-agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/86.0.4240.193 Safari/537.36\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate\"},\"Request URL\":\"https://gorest.co.in/public/v1/users\",\"Response Body\":\"{\\\"meta\\\":{\\\"pagination\\\":{\\\"total\\\":3468,\\\"pages\\\":174,\\\"page\\\":1,\\\"limit\\\":20,\\\"links\\\":{\\\"previous\\\":null,\\\"current\\\":\\\"https://gorest.co.in/public/v1/users?page=1\\\",\\\"next\\\":\\\"https://gorest.co.in/public/v1/users?page=2\\\"}}},\\\"data\\\":[{\\\"id\\\":4057,\\\"name\\\":\\\"tXkDWeRsUv\\\",\\\"email\\\":\\\"9Mr28WYoxo@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"},{\\\"id\\\":4053,\\\"name\\\":\\\"jPKaQUOEQR\\\",\\\"email\\\":\\\"DPCidWwlJZ@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"},{\\\"id\\\":4052,\\\"name\\\":\\\"DnTmGJTjHQ\\\",\\\"email\\\":\\\"EjmEWG8g6T@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"},{\\\"id\\\":4051,\\\"name\\\":\\\"mGUzkIfwLa\\\",\\\"email\\\":\\\"W0Nc5X2seH@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"},{\\\"id\\\":4050,\\\"name\\\":\\\"gxFaQHbbNl\\\",\\\"email\\\":\\\"5Ob3U67N64@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"},{\\\"id\\\":4049,\\\"name\\\":\\\"gLMjaAVTdl\\\",\\\"email\\\":\\\"X1gXmtLDdQ@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"},{\\\"id\\\":4048,\\\"name\\\":\\\"oCuLbTZfmG\\\",\\\"email\\\":\\\"qcVupjiz8s@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"},{\\\"id\\\":4047,\\\"name\\\":\\\"gcXlvzGIeG\\\",\\\"email\\\":\\\"IKZZ1JDNqo@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"},{\\\"id\\\":4046,\\\"name\\\":\\\"BlABVhPLfq\\\",\\\"email\\\":\\\"tgyyn6RK4l@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"},{\\\"id\\\":4045,\\\"name\\\":\\\"sBQNitWHDY\\\",\\\"email\\\":\\\"0ZQD6vKTtV@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"},{\\\"id\\\":4044,\\\"name\\\":\\\"dUbJTgIfDm\\\",\\\"email\\\":\\\"umI2OjGVh2@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"},{\\\"id\\\":4043,\\\"name\\\":\\\"BXWtjjuuXN\\\",\\\"email\\\":\\\"9dbVA0JTcU@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"},{\\\"id\\\":4042,\\\"name\\\":\\\"RYXookdNWu\\\",\\\"email\\\":\\\"wOsCbtKOJ4@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"},{\\\"id\\\":4035,\\\"name\\\":\\\"KLFRlRpauM\\\",\\\"email\\\":\\\"UcCOCmdqs7@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"},{\\\"id\\\":4034,\\\"name\\\":\\\"bQhRmvJmMZ\\\",\\\"email\\\":\\\"GrdgFBcdQG@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"},{\\\"id\\\":4033,\\\"name\\\":\\\"kVPsbiSPzn\\\",\\\"email\\\":\\\"C08iyoGpgC@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"},{\\\"id\\\":4032,\\\"name\\\":\\\"KLgotYLrWC\\\",\\\"email\\\":\\\"Wp9lIB6UUD@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"},{\\\"id\\\":4024,\\\"name\\\":\\\"aiMZxNuxvI\\\",\\\"email\\\":\\\"aV64BoKbfj@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"},{\\\"id\\\":4023,\\\"name\\\":\\\"hYwyOZRpYL\\\",\\\"email\\\":\\\"bzKKQPVbPa@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"},{\\\"id\\\":4022,\\\"name\\\":\\\"wOEgRtYTSF\\\",\\\"email\\\":\\\"t6tBZm1k2j@gmail.com\\\",\\\"gender\\\":\\\"male\\\",\\\"status\\\":\\\"active\\\"}]}\",\"Response Headers\":{\"server\":\"nginx\",\"date\":\"Sun, 20 Feb 2022 13:29:05 GMT\",\"content-type\":\"application/json; charset=utf-8\",\"transfer-encoding\":\"chunked\",\"connection\":\"keep-alive\",\"vary\":\"Accept-Encoding, Origin\",\"x-frame-options\":\"SAMEORIGIN\",\"x-xss-protection\":\"0\",\"x-content-type-options\":\"nosniff\",\"x-download-options\":\"noopen\",\"x-permitted-cross-domain-policies\":\"none\",\"referrer-policy\":\"strict-origin-when-cross-origin\",\"x-ratelimit-limit\":\"90\",\"x-ratelimit-remaining\":\"89\",\"x-ratelimit-reset\":\"2\",\"etag\":\"W/\\\"e542a54b3bbdd6e22ad3c38409b954be\\\"\",\"cache-control\":\"max-age=0, private, must-revalidate\",\"x-request-id\":\"acf7a83d-1f82-4a15-8893-48c97e66f476\",\"x-runtime\":\"0.027834\",\"strict-transport-security\":\"max-age=63072000; includeSubDomains\",\"content-encoding\":\"gzip\"},\"Response Status\":200}]}",
+        "time" : {
+          "start" : 1645363746028,
+          "stop" : 1645363746039,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then User Validates Put Call",
+      "time" : {
+        "start" : 1645363746044,
+        "stop" : 1645363746052,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log Put Method",
+        "time" : {
+          "start" : 1645363746044,
+          "stop" : 1645363746048,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then User Validates Delete Call",
+      "time" : {
+        "start" : 1645363746052,
+        "stop" : 1645363746057,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log Delete Method",
+        "time" : {
+          "start" : 1645363746052,
+          "stop" : 1645363746055,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1645363746080,
+        "stop" : 1645363746082,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "adee4f33bfd90358",
+      "name" : "video recording",
+      "source" : "adee4f33bfd90358.mp4",
+      "type" : "video/mp4",
+      "size" : 342053
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API"
+  }, {
+    "name" : "feature",
+    "value" : "Test E2E"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4c4cb00c8435e9a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645363301470,
+        "stop" : 1645363303086,
+        "duration" : 1616
+      }
+    }, {
+      "uid" : "a302dc059eae8311",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645362725692,
+        "stop" : 1645362727272,
+        "duration" : 1580
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Regression" ]
+  },
+  "source" : "5ee0adcdea65dda1.json",
+  "parameterValues" : [ ]
+}

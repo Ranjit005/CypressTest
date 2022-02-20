@@ -1,45 +1,45 @@
 [ {
-  "uid" : "b8525f2a0297915a",
-  "name" : "TC004:Validate API Test",
-  "time" : {
-    "start" : 1645363330788,
-    "stop" : 1645363331476,
-    "duration" : 688
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4bb8d8b24915c0a7",
+  "uid" : "291b43040ca05c71",
   "name" : "TC001:Validate HomePage",
   "time" : {
-    "start" : 1645363343214,
-    "stop" : 1645363351816,
-    "duration" : 8602
+    "start" : 1645363715025,
+    "stop" : 1645363720912,
+    "duration" : 5887
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "99558b32238849cf",
+  "uid" : "87851fa467f4224a",
   "name" : "TC002:Validate API Test",
   "time" : {
-    "start" : 1645363312306,
-    "stop" : 1645363312991,
-    "duration" : 685
+    "start" : 1645363752493,
+    "stop" : 1645363753138,
+    "duration" : 645
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "53c5480b177dd0b1",
-  "name" : "TC002:Validate HomePage",
+  "uid" : "5ee0adcdea65dda1",
+  "name" : "TC001:Validate API Test",
   "time" : {
-    "start" : 1645363385054,
-    "stop" : 1645363389332,
-    "duration" : 4278
+    "start" : 1645363744439,
+    "stop" : 1645363746058,
+    "duration" : 1619
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b05a1cb3d2e88d78",
+  "uid" : "f5f0400065a8f9db",
+  "name" : "TC003:Validate HomePage",
+  "time" : {
+    "start" : 1645363401868,
+    "stop" : 1645363406431,
+    "duration" : 4563
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5fdab2ddaf00b55",
   "name" : "TC003:Validate API Test",
   "time" : {
     "start" : 1645363321648,
@@ -49,22 +49,22 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "95be7727f1590557",
-  "name" : "TC001:Validate API Test",
+  "uid" : "2a2b2d90a6d4ec20",
+  "name" : "TC004:Validate API Test",
   "time" : {
-    "start" : 1645363301470,
-    "stop" : 1645363303086,
-    "duration" : 1616
+    "start" : 1645363330788,
+    "stop" : 1645363331476,
+    "duration" : 688
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d604d44977d2bace",
-  "name" : "TC003:Validate HomePage",
+  "uid" : "1c35631fe1cb34d3",
+  "name" : "TC002:Validate HomePage",
   "time" : {
-    "start" : 1645363401868,
-    "stop" : 1645363406431,
-    "duration" : 4563
+    "start" : 1645363731441,
+    "stop" : 1645363735351,
+    "duration" : 3910
   },
   "status" : "passed",
   "severity" : "normal"
