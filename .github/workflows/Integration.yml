@@ -38,8 +38,17 @@ jobs:
           npm ci
           $(npm bin)/cypress verify
       - name: Cypress run
-        run: npm run Cypress-All
-        continue-on-error: true          
+        uses: cypress-io/github-action@v2
+        with:
+          config-file: cypress/integration/Config.json
+          spec: cypress/integration/*/*.feature
+          browser: chrome
+          parallel: true
+          record: true
+        env:
+          allure: true
+          CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}        
           
       - name: Generate Allure report
         if: always()
