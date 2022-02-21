@@ -1,5 +1,5 @@
 {
-  "uid" : "c180c72ae290445e",
+  "uid" : "4834f2d85910d5f2",
   "name" : "TC004:Validate API Test",
   "fullName" : "TC004:Validate API Test",
   "historyId" : "c794df0de679a908cebc0733ea684a45",
@@ -211,9 +211,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "10a2961464b3ece9",
+      "uid" : "95a1eadacdb130ae",
       "name" : "video recording",
-      "source" : "10a2961464b3ece9.mp4",
+      "source" : "95a1eadacdb130ae.mp4",
       "type" : "video/mp4",
       "size" : 347910
     } ],
@@ -247,6 +247,6 @@
     "categories" : [ ],
     "tags" : [ "Smoke" ]
   },
-  "source" : "c180c72ae290445e.json",
+  "source" : "4834f2d85910d5f2.json",
   "parameterValues" : [ ]
 }
