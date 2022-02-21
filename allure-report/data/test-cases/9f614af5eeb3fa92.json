@@ -1,0 +1,122 @@
+{
+  "uid" : "9f614af5eeb3fa92",
+  "name" : "TC002:Validate HomePage",
+  "fullName" : "TC002:Validate HomePage",
+  "historyId" : "db0fb9a21891de97cba96661dbf54708",
+  "time" : {
+    "start" : 1645441941248,
+    "stop" : 1645441941250,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Test ignored",
+    "steps" : [ {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1645441941252,
+        "stop" : 1645441941252,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9d7b6118d94f5565",
+      "name" : "video recording",
+      "source" : "9d7b6118d94f5565.mp4",
+      "type" : "video/mp4",
+      "size" : 172799
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "UI"
+  }, {
+    "name" : "feature",
+    "value" : "Test E2E"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b8d80b6008213667",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645441572604,
+        "stop" : 1645441579155,
+        "duration" : 6551
+      }
+    }, {
+      "uid" : "de9d229445b7a068",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645439068249,
+        "stop" : 1645439077289,
+        "duration" : 9040
+      }
+    }, {
+      "uid" : "f7649c083d0f58f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645437385977,
+        "stop" : 1645437391269,
+        "duration" : 5292
+      }
+    }, {
+      "uid" : "6c7b4838a02a3244",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645437368243,
+        "stop" : 1645437375527,
+        "duration" : 7284
+      }
+    }, {
+      "uid" : "c5261eb71f26190f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645436953447,
+        "stop" : 1645436962823,
+        "duration" : 9376
+      }
+    }, {
+      "uid" : "ecad0e0e6867586f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645364291084,
+        "stop" : 1645364296810,
+        "duration" : 5726
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Regression" ]
+  },
+  "source" : "9f614af5eeb3fa92.json",
+  "parameterValues" : [ ]
+}

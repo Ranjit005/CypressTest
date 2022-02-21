@@ -1,23 +1,53 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "children" : [ {
-    "name" : "UI",
+    "name" : "API",
     "children" : [ {
-      "name" : "TC003:Validate HomePage",
-      "uid" : "11b9a822f01a6475",
-      "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
+      "name" : "TC001:Validate API Test",
+      "uid" : "5bcd266f26f184b7",
+      "parentUid" : "14fa7b099890ed134a386db0936127bb",
       "status" : "passed",
       "time" : {
-        "start" : 1645441271949,
-        "stop" : 1645441280951,
-        "duration" : 9002
+        "start" : 1645441589070,
+        "stop" : 1645441590713,
+        "duration" : 1643
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
+      "name" : "TC003:Validate API Test",
+      "uid" : "da9a918615c96c84",
+      "parentUid" : "14fa7b099890ed134a386db0936127bb",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1645441957378,
+        "stop" : 1645441957380,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC002:Validate API Test",
+      "uid" : "e56c15fde0c61876",
+      "parentUid" : "14fa7b099890ed134a386db0936127bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645441964281,
+        "stop" : 1645441965010,
+        "duration" : 729
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "14fa7b099890ed134a386db0936127bb"
+  }, {
+    "name" : "UI",
+    "children" : [ {
       "name" : "TC001:Validate HomePage",
-      "uid" : "13b6f9672e15d1c1",
+      "uid" : "676bd40a52bce03a",
       "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
       "status" : "skipped",
       "time" : {
@@ -30,7 +60,7 @@
       "parameters" : [ ]
     }, {
       "name" : "TC002:Validate HomePage",
-      "uid" : "e29b9d5ae60e6bc8",
+      "uid" : "9f614af5eeb3fa92",
       "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
       "status" : "skipped",
       "time" : {
@@ -44,61 +74,35 @@
     } ],
     "uid" : "6bfa3d1bea669a46b5644d20357bd4d8"
   }, {
-    "name" : "API",
+    "name" : "Test E2E",
     "children" : [ {
-      "name" : "TC001:Validate API Test",
-      "uid" : "596e5ec75ec32328",
-      "parentUid" : "14fa7b099890ed134a386db0936127bb",
+      "name" : "TC003:Validate HomePage",
+      "uid" : "880d43293b5e02c4",
+      "parentUid" : "9c962798d81050d3f86c487ad83fcb81",
       "status" : "passed",
       "time" : {
-        "start" : 1645441589070,
-        "stop" : 1645441590713,
-        "duration" : 1643
+        "start" : 1645460757015,
+        "stop" : 1645460765189,
+        "duration" : 8174
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "TC004:Validate API Test",
-      "uid" : "6c7aeaf00f28e2ab",
-      "parentUid" : "14fa7b099890ed134a386db0936127bb",
+      "uid" : "fd943215a5adbf96",
+      "parentUid" : "9c962798d81050d3f86c487ad83fcb81",
       "status" : "passed",
       "time" : {
-        "start" : 1645441948207,
-        "stop" : 1645441949746,
-        "duration" : 1539
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "TC003:Validate API Test",
-      "uid" : "eb1f9569583ad356",
-      "parentUid" : "14fa7b099890ed134a386db0936127bb",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1645441957378,
-        "stop" : 1645441957380,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "TC002:Validate API Test",
-      "uid" : "bd3d0cdde7fbe916",
-      "parentUid" : "14fa7b099890ed134a386db0936127bb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645441964281,
-        "stop" : 1645441965010,
-        "duration" : 729
+        "start" : 1645460777925,
+        "stop" : 1645460779500,
+        "duration" : 1575
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "14fa7b099890ed134a386db0936127bb"
+    "uid" : "9c962798d81050d3f86c487ad83fcb81"
   } ],
   "name" : "suites"
 }

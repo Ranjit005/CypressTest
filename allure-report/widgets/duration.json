@@ -1,45 +1,5 @@
 [ {
-  "uid" : "596e5ec75ec32328",
-  "name" : "TC001:Validate API Test",
-  "time" : {
-    "start" : 1645441589070,
-    "stop" : 1645441590713,
-    "duration" : 1643
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "11b9a822f01a6475",
-  "name" : "TC003:Validate HomePage",
-  "time" : {
-    "start" : 1645441271949,
-    "stop" : 1645441280951,
-    "duration" : 9002
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6c7aeaf00f28e2ab",
-  "name" : "TC004:Validate API Test",
-  "time" : {
-    "start" : 1645441948207,
-    "stop" : 1645441949746,
-    "duration" : 1539
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "13b6f9672e15d1c1",
-  "name" : "TC001:Validate HomePage",
-  "time" : {
-    "start" : 1645441933523,
-    "stop" : 1645441933525,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "bd3d0cdde7fbe916",
+  "uid" : "e56c15fde0c61876",
   "name" : "TC002:Validate API Test",
   "time" : {
     "start" : 1645441964281,
@@ -49,7 +9,27 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e29b9d5ae60e6bc8",
+  "uid" : "676bd40a52bce03a",
+  "name" : "TC001:Validate HomePage",
+  "time" : {
+    "start" : 1645441933523,
+    "stop" : 1645441933525,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "fd943215a5adbf96",
+  "name" : "TC004:Validate API Test",
+  "time" : {
+    "start" : 1645460777925,
+    "stop" : 1645460779500,
+    "duration" : 1575
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f614af5eeb3fa92",
   "name" : "TC002:Validate HomePage",
   "time" : {
     "start" : 1645441941248,
@@ -59,7 +39,17 @@
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "eb1f9569583ad356",
+  "uid" : "5bcd266f26f184b7",
+  "name" : "TC001:Validate API Test",
+  "time" : {
+    "start" : 1645441589070,
+    "stop" : 1645441590713,
+    "duration" : 1643
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da9a918615c96c84",
   "name" : "TC003:Validate API Test",
   "time" : {
     "start" : 1645441957378,
@@ -67,5 +57,15 @@
     "duration" : 2
   },
   "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "880d43293b5e02c4",
+  "name" : "TC003:Validate HomePage",
+  "time" : {
+    "start" : 1645460757015,
+    "stop" : 1645460765189,
+    "duration" : 8174
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]
