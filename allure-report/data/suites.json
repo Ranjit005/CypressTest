@@ -4,7 +4,7 @@
     "name" : "API",
     "children" : [ {
       "name" : "TC003:Validate API Test",
-      "uid" : "2bd38971954b8c55",
+      "uid" : "ebb82185eba4511f",
       "parentUid" : "14fa7b099890ed134a386db0936127bb",
       "status" : "passed",
       "time" : {
@@ -16,21 +16,8 @@
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "TC002:Validate API Test",
-      "uid" : "80dbbe6688f54d99",
-      "parentUid" : "14fa7b099890ed134a386db0936127bb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645439103714,
-        "stop" : 1645439105326,
-        "duration" : 1612
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
       "name" : "TC001:Validate API Test",
-      "uid" : "308b78037d9c1f8d",
+      "uid" : "d2d36f09681a8bc8",
       "parentUid" : "14fa7b099890ed134a386db0936127bb",
       "status" : "passed",
       "time" : {
@@ -41,26 +28,26 @@
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
+    }, {
+      "name" : "TC002:Validate API Test",
+      "uid" : "6cde7cafab4ea7cc",
+      "parentUid" : "14fa7b099890ed134a386db0936127bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645440413930,
+        "stop" : 1645440415541,
+        "duration" : 1611
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
     } ],
     "uid" : "14fa7b099890ed134a386db0936127bb"
   }, {
     "name" : "UI",
     "children" : [ {
-      "name" : "TC001:Validate HomePage",
-      "uid" : "98cc612f402f1418",
-      "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645412127317,
-        "stop" : 1645412136006,
-        "duration" : 8689
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
       "name" : "TC002:Validate HomePage",
-      "uid" : "ba843e7c3a23f976",
+      "uid" : "ac57178cba3f8d46",
       "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
       "status" : "passed",
       "time" : {
@@ -73,13 +60,26 @@
       "parameters" : [ ]
     }, {
       "name" : "TC003:Validate HomePage",
-      "uid" : "87c917ead664514c",
+      "uid" : "2b624f5e7ebb78a8",
       "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
       "status" : "passed",
       "time" : {
         "start" : 1645439570676,
         "stop" : 1645439577242,
         "duration" : 6566
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC001:Validate HomePage",
+      "uid" : "10777ef671810f94",
+      "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645440392825,
+        "stop" : 1645440402113,
+        "duration" : 9288
       },
       "flaky" : false,
       "newFailed" : false,

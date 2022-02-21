@@ -1,12 +1,12 @@
 {
-  "uid" : "ba843e7c3a23f976",
+  "uid" : "b92ed0028ac70215",
   "name" : "TC002:Validate HomePage",
   "fullName" : "TC002:Validate HomePage",
   "historyId" : "db0fb9a21891de97cba96661dbf54708",
   "time" : {
-    "start" : 1645439068249,
-    "stop" : 1645439077289,
-    "duration" : 9040
+    "start" : 1645436953447,
+    "stop" : 1645436962823,
+    "duration" : 9376
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,9 +17,9 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1645439068251,
-        "stop" : 1645439068253,
-        "duration" : 2
+        "start" : 1645436953454,
+        "stop" : 1645436953455,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,17 +32,17 @@
     }, {
       "name" : "Given User Open Url",
       "time" : {
-        "start" : 1645439068274,
-        "stop" : 1645439074699,
-        "duration" : 6425
+        "start" : 1645436953475,
+        "stop" : 1645436960255,
+        "duration" : 6780
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit https://demoqa.com/",
         "time" : {
-          "start" : 1645439068276,
-          "stop" : 1645439074691,
-          "duration" : 6415
+          "start" : 1645436953476,
+          "stop" : 1645436960234,
+          "duration" : 6758
         },
         "status" : "passed",
         "steps" : [ ],
@@ -55,8 +55,8 @@
       }, {
         "name" : "GET 200 https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
         "time" : {
-          "start" : 1645439074687,
-          "stop" : 1645439074687,
+          "start" : 1645436960222,
+          "stop" : 1645436960222,
           "duration" : 0
         },
         "status" : "passed",
@@ -68,10 +68,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "GET https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&pvsid=4124717545488148&correlator=3382300493372874&output=ldjh&impl=fif&eid=31061815,31065012,44756894&vrg=2022021704&ptt=17&sc=1&sfv=1-0-38&ecs=20220221&iu_parts=21849154601:22343295815,Ad.Plus-Anchor&enc_prev_ius=/0/1&prev_iu_szs=320x100&prev_scp=site=demoqa.com&cookie_enabled=1&cdm=demoqa.com&bc=31&abxe=1&dt=1645439071448&lmt=1645382807&dlt=1645439068459&idt=2259&frm=23&biw=1280&bih=720&isw=988&ish=660&oid=2&adxs=9&adys=660&adks=1054281660&ucis=58jssgj9nily&ifi=2&u_his=3&u_h=721&u_w=1280&u_ah=721&u_aw=1280&u_cd=24&u_sd=1&flash=0&nhd=1&url=https://demoqa.com/&top=https://demoqa.com/__/#/tests/integration/UI/Test1.feature&vis=1&scr_x=0&scr_y=0&psz=970x-1&msz=970x-1&ga_vid=2058038006.1645439071&ga_sid=1645439071&ga_hid=732676662&ga_fc=false&fws=772&ohw=970&btvi=0&nvt=1",
+        "name" : "GET https://securepubads.g.doubleclick.net/gampad/ads?pvsid=867073594153170&correlator=34365437505331&eid=31065011,44757101,31063246,44758227&output=ldjh&gdfp_req=1&vrg=2022021401&ptt=17&impl=fif&sc=1&sfv=1-0-38&ecs=20220221&iu_parts=21849154601:22343295815,Ad.Plus-Anchor&enc_prev_ius=/0/1&prev_iu_szs=320x100&prev_scp=site=demoqa.com&cookie_enabled=1&cdm=demoqa.com&bc=31&abxe=1&dt=1645436956629&lmt=1645382807&dlt=1645436953633&idt=2949&frm=23&biw=1280&bih=720&isw=985&ish=660&oid=2&adxs=8&adys=660&adks=1054281660&ucis=bkwiene39glz&ifi=2&u_his=4&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_sd=1&flash=0&dmc=8&nhd=1&url=https://demoqa.com/&top=https://demoqa.com/__/#/tests/integration/UI/Test2.feature&vis=1&scr_x=0&scr_y=0&psz=970x-1&msz=970x-1&ga_vid=490792738.1645436957&ga_sid=1645436957&ga_hid=1348375512&ga_fc=false&fws=772&ohw=970&btvi=0&uach=WyIiLCIiLCIiLCIiLCIiLFtdLG51bGwsbnVsbCwiIixbXV0.&nvt=1",
         "time" : {
-          "start" : 1645439074688,
-          "stop" : 1645439074688,
+          "start" : 1645436960222,
+          "stop" : 1645436960222,
           "duration" : 0
         },
         "status" : "passed",
@@ -83,10 +83,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "GET https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&pvsid=4124717545488148&correlator=3382300493372874&output=ldjh&impl=fif&eid=31061815,31065012,44756894&vrg=2022021704&ptt=17&sc=1&sfv=1-0-38&ecs=20220221&iu_parts=21849154601:22343295815,Ad.Plus-MultiPlex&enc_prev_ius=/0/1&prev_iu_szs=320x50&fluid=height&cookie_enabled=1&cdm=demoqa.com&bc=31&abxe=1&dt=1645439071455&lmt=1645382807&dlt=1645439068459&idt=2259&frm=23&biw=1280&bih=720&isw=988&ish=660&oid=2&adxs=0&adys=1362&adks=2849331663&ucis=3kxcl5um9ccz&ifi=3&u_his=3&u_h=721&u_w=1280&u_ah=721&u_aw=1280&u_cd=24&u_sd=1&flash=0&nhd=1&url=https://demoqa.com/&top=https://demoqa.com/__/#/tests/integration/UI/Test1.feature&vis=1&scr_x=0&scr_y=0&psz=988x660&msz=988x0&ga_vid=2058038006.1645439071&ga_sid=1645439071&ga_hid=732676662&ga_fc=false&fws=256&ohw=0&btvi=1&nvt=1",
+        "name" : "GET https://securepubads.g.doubleclick.net/gampad/ads?pvsid=867073594153170&correlator=34365437505331&eid=31065011,44757101,31063246,44758227&output=ldjh&gdfp_req=1&vrg=2022021401&ptt=17&impl=fif&sc=1&sfv=1-0-38&ecs=20220221&iu_parts=21849154601:22343295815,Ad.Plus-MultiPlex&enc_prev_ius=/0/1&prev_iu_szs=320x50&fluid=height&cookie_enabled=1&cdm=demoqa.com&bc=31&abxe=1&dt=1645436956639&lmt=1645382807&dlt=1645436953633&idt=2949&frm=23&biw=1280&bih=720&isw=985&ish=660&oid=2&adxs=0&adys=1286&adks=2849331663&ucis=jyioskpi2l4g&ifi=3&u_his=4&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_sd=1&flash=0&dmc=8&nhd=1&url=https://demoqa.com/&top=https://demoqa.com/__/#/tests/integration/UI/Test2.feature&vis=1&scr_x=0&scr_y=0&psz=985x660&msz=985x0&ga_vid=490792738.1645436957&ga_sid=1645436957&ga_hid=1348375512&ga_fc=false&fws=256&ohw=0&btvi=1&uach=WyIiLCIiLCIiLCIiLCIiLFtdLG51bGwsbnVsbCwiIixbXV0.&nvt=1",
         "time" : {
-          "start" : 1645439074688,
-          "stop" : 1645439074688,
+          "start" : 1645436960222,
+          "stop" : 1645436960222,
           "duration" : 0
         },
         "status" : "passed",
@@ -98,10 +98,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=732676662&t=pageview&_s=1&dl=https://demoqa.com/&ul=en-us&de=UTF-8&dt=ToolsQA&sd=24-bit&sr=1280x721&vp=988x660&je=0&_u=YAhAAEABAAAAAC~&jid=974551749&gjid=960997363&cid=2058038006.1645439071&tid=UA-109033876-1&_gid=1288831935.1645439072&_r=1&gtm=2wg2g0MX8DD4S&z=1535702238",
+        "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1348375512&t=pageview&_s=1&dl=https://demoqa.com/&ul=en-us&de=UTF-8&dt=ToolsQA&sd=24-bit&sr=1280x720&vp=985x660&je=0&_u=YAhAAEABAAAAAC~&jid=1568084922&gjid=1612929600&cid=490792738.1645436957&tid=UA-109033876-1&_gid=300711342.1645436957&_r=1&gtm=2wg2g0MX8DD4S&z=1487394414",
         "time" : {
-          "start" : 1645439074688,
-          "stop" : 1645439074688,
+          "start" : 1645436960223,
+          "stop" : 1645436960223,
           "duration" : 0
         },
         "status" : "passed",
@@ -113,10 +113,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "GET 200 https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&pvsid=4124717545488148&correlator=3382300493372874&output=ldjh&impl=fif&eid=31061815%2C31065012%2C44756894&vrg=2022021704&ptt=17&sc=1&sfv=1-0-38&ecs=20220221&iu_parts=21849154601%3A22343295815%2CAd.Plus-Anchor&enc_prev_ius=%2F0%2F1&prev_iu_szs=320x100&prev_scp=site%3Ddemoqa.com&cookie_enabled=1&cdm=demoqa.com&bc=31&abxe=1&dt=1645439071448&lmt=1645382807&dlt=1645439068459&idt=2259&frm=23&biw=1280&bih=720&isw=988&ish=660&oid=2&adxs=9&adys=660&adks=1054281660&ucis=58jssgj9nily&ifi=2&u_his=3&u_h=721&u_w=1280&u_ah=721&u_aw=1280&u_cd=24&u_sd=1&flash=0&nhd=1&url=https%3A%2F%2Fdemoqa.com%2F&top=https%3A%2F%2Fdemoqa.com%2F__%2F%23%2Ftests%2Fintegration%2FUI%2FTest1.feature&vis=1&scr_x=0&scr_y=0&psz=970x-1&msz=970x-1&ga_vid=2058038006.1645439071&ga_sid=1645439071&ga_hid=732676662&ga_fc=false&fws=772&ohw=970&btvi=0&nvt=1",
+        "name" : "POST 200 https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-109033876-1&cid=490792738.1645436957&jid=1568084922&gjid=1612929600&_gid=300711342.1645436957&_u=YAhAAEAAAAAAAC~&z=941507338",
         "time" : {
-          "start" : 1645439074689,
-          "stop" : 1645439074689,
+          "start" : 1645436960223,
+          "stop" : 1645436960223,
           "duration" : 0
         },
         "status" : "passed",
@@ -128,10 +128,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "POST 200 https://www.google-analytics.com/j/collect?v=1&_v=j96&a=732676662&t=pageview&_s=1&dl=https%3A%2F%2Fdemoqa.com%2F&ul=en-us&de=UTF-8&dt=ToolsQA&sd=24-bit&sr=1280x721&vp=988x660&je=0&_u=YAhAAEABAAAAAC~&jid=974551749&gjid=960997363&cid=2058038006.1645439071&tid=UA-109033876-1&_gid=1288831935.1645439072&_r=1&gtm=2wg2g0MX8DD4S&z=1535702238",
+        "name" : "GET https://securepubads.g.doubleclick.net/pagead/adview?ai=CsXXlHWATYtD2HI2YxAOclbmIB5TWhr5owL6255wOpOfy7ZUCEAEgxvvWeWDJhoCA7KTEEaABsoSGuAPIAQGpAqPNtTxpUKo-4AIAqAMByAObBKoE4wFP0JcK7U-kLZ4CFofA4prBEf2wRq8GS7VvNGc9pvIhLiaI_JPFf29eFzvydvvQCEylJyCg0nIQfSW3t8p55tf9Cu_lN_nWSVGo6hpd2m5PS5sY0jaTVSXCROr8jbfy_QcVodZG_LNSGdq14fF_oHM56VmaxQTGd0Qu_2NqNcWEiMHUfz8q3e_ZUpnrCtVI-rx9Z53LbZExcTRTfX4SRQQxIP-mqMl9VRLuMn1aEvIJS3nRPwKM3B1BrROpbcbSqws4dBA9QNFNc2Ds__IyAzWy2jere3CNKzUCQ-_x7ZZH9hfmjsAEvYeazM8D4AQBkgUECAQYAZIFBAgFGASgBlGAB7b7-UeoB47OG6gHk9gbqAfulrECqAf-nrECqAfVyRuoB6a-G9gHAfIHAxDwLtIIBwiIYRABGB3yCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKACgPICwHYEw3QFQGYFgGAFwGyFx4KHAgAEhRwdWItNDU3MzIzMTU1MDM1NTIyMRjqqnI&sigh=Z-hbhAOpD4w&uach_m=[UACH]",
         "time" : {
-          "start" : 1645439074689,
-          "stop" : 1645439074689,
+          "start" : 1645436960223,
+          "stop" : 1645436960223,
           "duration" : 0
         },
         "status" : "passed",
@@ -143,10 +143,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "GET 200 https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&pvsid=4124717545488148&correlator=3382300493372874&output=ldjh&impl=fif&eid=31061815%2C31065012%2C44756894&vrg=2022021704&ptt=17&sc=1&sfv=1-0-38&ecs=20220221&iu_parts=21849154601%3A22343295815%2CAd.Plus-MultiPlex&enc_prev_ius=%2F0%2F1&prev_iu_szs=320x50&fluid=height&cookie_enabled=1&cdm=demoqa.com&bc=31&abxe=1&dt=1645439071455&lmt=1645382807&dlt=1645439068459&idt=2259&frm=23&biw=1280&bih=720&isw=988&ish=660&oid=2&adxs=0&adys=1362&adks=2849331663&ucis=3kxcl5um9ccz&ifi=3&u_his=3&u_h=721&u_w=1280&u_ah=721&u_aw=1280&u_cd=24&u_sd=1&flash=0&nhd=1&url=https%3A%2F%2Fdemoqa.com%2F&top=https%3A%2F%2Fdemoqa.com%2F__%2F%23%2Ftests%2Fintegration%2FUI%2FTest1.feature&vis=1&scr_x=0&scr_y=0&psz=988x660&msz=988x0&ga_vid=2058038006.1645439071&ga_sid=1645439071&ga_hid=732676662&ga_fc=false&fws=256&ohw=0&btvi=1&nvt=1",
+        "name" : "GET https://securepubads.g.doubleclick.net/pagead/adview?ai=C7wTiHWATYtH2HI2YxAOclbmIB_uSr5dnhpO9m4sPpOfy7ZUCEAEgxvvWeWDJhoCA7KTEEaABv4faogLIAQbgAgCoAwHIA5sEqgTgAU_QI3MlmMTFR8U8e8nUt8feiUBq1xMTmOjHfhhzAyUPzji0-Gx2oqIUTpS8xpDMrBZwu3_K2TDHlKYFCzwA4FM_Vg6WqaPL-zsHAb-XA1_mSVIViiVmrm-I_rp2z1d7T0fHXM74An8kPFnINyeaCrFCCWFitiltDipSQ4IwMrrNrSQeKym6MczupX_OdD-00T6GwfjYmGr8zN0twrmW2705ZppnjlvJUpDaxNKwyHHMcZ6ICzkR2hszpzyNKMz-bDun_yLhJWR-iQ5Y7Y66mcAGqa6hhlJiakq4ckvE-RH9wATrlJDnygPgBAGSBQQIBBgBkgUECAUYBKAGN4AHqfil3QGoB47OG6gHk9gbqAfulrECqAf-nrECqAfVyRuoB6a-G9gHAfIHAxDwLtIIBwiIYRABGB3yCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKACgPICwHYEwyIFAHQFQGYFgGAFwGyFx4KHAgAEhRwdWItNDU3MzIzMTU1MDM1NTIyMRjqqnI&sigh=kCmIZ602e4c&uach_m=[UACH]&template_id=492",
         "time" : {
-          "start" : 1645439074689,
-          "stop" : 1645439074689,
+          "start" : 1645436960223,
+          "stop" : 1645436960223,
           "duration" : 0
         },
         "status" : "passed",
@@ -158,10 +158,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "POST 200 https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-109033876-1&cid=2058038006.1645439071&jid=974551749&gjid=960997363&_gid=1288831935.1645439072&_u=YAhAAEAAAAAAAC~&z=1530489305",
+        "name" : "GET https://securepubads.g.doubleclick.net/pagead/adview?ai=CFrWOHWATYtL2HI2YxAOclbmIB9O91uRV2M224MMHobft8I4OEAEgxvvWeWDJhoCA7KTEEaABhZunoQPIAQHgAgCoAwHIA5sEqgTiAU_QqlatxLAzq8sGflm_xWRXz9Eg0v6TkGZl3k9KK7lnzqYIfj8ssnHv7HtV5Fm93zNyPK8UAiHIWcg3Wa5UBkAHnvpMBAzK9kDeZiSFJcxrjVVRbCJWiFvB806jcOCSAGPCQxzrqxxWK-qT2KFDZpGtuMj4VMGqneIY7_TJWtWpjODz0CqHaPANoNoRNnp2XwlJDU0FFmUR5fR7Ahy5aVJpmQpcZyaf7VoLUc628VwuzIDrPBv3Ave9hLdVR4eO4AFXdIXePzzzlhXPqCGexLx5GZWQlwETliewrBEeerjgy1vABIGH2uHEAeAEAZIFBAgEGAGSBQQIBRgEoAZRgAfj5NheqAeOzhuoB5PYG6gH7paxAqgH_p6xAqgH1ckbqAemvhvYBwHyBwMQ8C7SCAcIiGEQARgd8ggbYWR4LXN1YnN5bi0zNTIwNjE3MzQxNjY1NTkygAoDyAsB2BMNiBQL0BUBmBYBgBcBshceChwIABIUcHViLTQ1NzMyMzE1NTAzNTUyMjEY6qpy&sigh=BSeStnbXTBQ&uach_m=[UACH]",
         "time" : {
-          "start" : 1645439074689,
-          "stop" : 1645439074689,
+          "start" : 1645436960223,
+          "stop" : 1645436960223,
           "duration" : 0
         },
         "status" : "passed",
@@ -173,10 +173,55 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "GET https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gda&tv=r20220216&st=env",
+        "name" : "GET https://securepubads.g.doubleclick.net/pagead/adview?ai=CEBEJHWATYtP2HI2YxAOclbmIB4Df0rBoysGqsboP2dkeEAEgxvvWeWDJhoCA7KTEEaABl7KI_wPIAQbgAgCoAwHIA5sEqgTiAU_QtOFME5gL7ohJSrSKd8aq4ZptnYh4G9tH-rTNp6XEs1-5IrCH4yQiC-ldBpjDqLT772Ube_3K5g0KbVVQv51Mp1as822qvwxlwQXmlrQiwbguR4S1dWl1yqOQZPXUb36dRkcYW0UJbBtMFh23hiMoJcKEDy5ZkIcdaNunQ1EXhN3Zq24Rt3_WObsjBgAmYWy_VjiZQ6Jo79EHJfbff-JfFchwTc6bb12fonrOl9nc-M8c2Rc4fvsSUHdR08caPn7aTKdDzR5PdACiA0BnNqvHqU_9Lzo6OnHHC9PMOLQd8KPABKHC0-WuA-AEAZIFBAgEGAGSBQQIBRgEoAY3gAfRzXeoB47OG6gHk9gbqAfulrECqAf-nrECqAfVyRuoB6a-G9gHAfIHAxDwLtIIBwiIYRABGB3yCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKACgPICwHYEwKIFAHQFQGYFgGAFwGyFx4KHAgAEhRwdWItNDU3MzIzMTU1MDM1NTIyMRjqqnI&sigh=fuAwwv_37-w&uach_m=[UACH]&template_id=492",
         "time" : {
-          "start" : 1645439074691,
-          "stop" : 1645439074691,
+          "start" : 1645436960233,
+          "stop" : 1645436960233,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://securepubads.g.doubleclick.net/pagead/adview?ai=CL_vQHWATYtT2HI2YxAOclbmIB_LCi_Nnnq62rPAO6svXrecOEAEgxvvWeWDJhoCA7KTEEaAB_ZbUuALIAQbgAgCoAwHIA5sEqgTmAU_Q7qC-jcgITzidYnBq18zeWZxoaK2QS4A6apaYlcA_M6yZB3_HmNBa2UYO89oSG6umb-iq00oP_jo4S59PYv4hlkDh4f50BifaiPXMxMgMX9lg7BsWzvHLgANWmIkNdTqZ3yMsG-jij0m1ck6TIaTIsVq-czG9l-FC9B4Ihx2R9UDQOZM8OOj9Beid6OS5a3YJLm22Rn8dTUPZo0Fgc2qKPCj7arj9Q9NN6QllXyO2d9FChT2d3SzkmzUSQt2X-iiyLMv4wmARHvtKmHudVYDvEM9J_VBVNw4F--rFTesi8zOYI3PywAT98YfQ2QPgBAGSBQQIBBgBkgUECAUYBKAGN4AH6-irxwGoB47OG6gHk9gbqAfulrECqAf-nrECqAfVyRuoB6a-G9gHAfIHAxDwLtIIBwiIYRABGB3yCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKACgPICwHYEwzQFQGAFwGyFx4KHAgAEhRwdWItNDU3MzIzMTU1MDM1NTIyMRjqqnI&sigh=qemQ3gcOeBM&uach_m=[UACH]&template_id=492",
+        "time" : {
+          "start" : 1645436960234,
+          "stop" : 1645436960234,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://securepubads.g.doubleclick.net/pagead/adview?ai=CgilsHWATYtX2HI2YxAOclbmIB4rkiYBo2v_e-uoOk8T0_QgQASDG-9Z5YMmGgIDspMQRoAGDnti_A8gBBuACAKgDAcgDmwSqBOUBT9CNKMPgfJ9_FH8yM-nF_gGzwn4YZ14K9Bk9S1RhohOG7RyYMqfXraffjRdC7T_iSpXtrSuBHz-SiMJZwwRRIrGuVIRf6Ntvah1J8I0JqveYLs9G8LuyEE7pnlDXkYbCtvuoqzvPP_8kcdz1y7y7-wxPxi5ju5UOt_rQ89xLv_mFUlVDmWKd5d9Wut2nb7S4HyVqZe9Ng2Cza2eweIimgIeoADHFhIZrWqwfD7yZkbn4zS4aiIOiWEwakezkcrTqoBrLgAa1xCnLMFm0TBVnUuRMSfqfamAtnrQzXTjqak8NZEPy9sAEp82w-uUD4AQBkgUECAQYAZIFBAgFGASgBjeAB-Xhp0CoB47OG6gHk9gbqAfulrECqAf-nrECqAfVyRuoB6a-G9gHAfIHAxDwLtIIBwiIYRABGB3yCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKACgPICwHYEwyIFAXQFQGYFgGAFwGyFx4KHAgAEhRwdWItNDU3MzIzMTU1MDM1NTIyMRjqqnI&sigh=dWoP_i-wuFU&uach_m=[UACH]&template_id=492",
+        "time" : {
+          "start" : 1645436960234,
+          "stop" : 1645436960234,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gpt&tv=2022021401&st=env",
+        "time" : {
+          "start" : 1645436960234,
+          "stop" : 1645436960234,
           "duration" : 0
         },
         "status" : "passed",
@@ -190,24 +235,24 @@
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 10,
+      "stepsCount" : 13,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
       "name" : "Then User Click on Element",
       "time" : {
-        "start" : 1645439074698,
-        "stop" : 1645439074886,
-        "duration" : 188
+        "start" : 1645436960255,
+        "stop" : 1645436960574,
+        "duration" : 319
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "get :nth-child(1) > :nth-child(1) > .card-body > h5",
         "time" : {
-          "start" : 1645439074703,
-          "stop" : 1645439074726,
-          "duration" : 23
+          "start" : 1645436960259,
+          "stop" : 1645436960324,
+          "duration" : 65
         },
         "status" : "passed",
         "steps" : [ ],
@@ -220,9 +265,9 @@
       }, {
         "name" : "click",
         "time" : {
-          "start" : 1645439074726,
-          "stop" : 1645439074880,
-          "duration" : 154
+          "start" : 1645436960324,
+          "stop" : 1645436960568,
+          "duration" : 244
         },
         "status" : "passed",
         "steps" : [ ],
@@ -235,8 +280,8 @@
       }, {
         "name" : "new url https://demoqa.com/elements",
         "time" : {
-          "start" : 1645439074880,
-          "stop" : 1645439074880,
+          "start" : 1645436960568,
+          "stop" : 1645436960568,
           "duration" : 0
         },
         "status" : "passed",
@@ -257,17 +302,17 @@
     }, {
       "name" : "Then User Click on TextBox",
       "time" : {
-        "start" : 1645439074886,
-        "stop" : 1645439075115,
-        "duration" : 229
+        "start" : 1645436960574,
+        "stop" : 1645436960791,
+        "duration" : 217
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "xpath //*[contains(text(),'Text Box')]",
         "time" : {
-          "start" : 1645439074893,
-          "stop" : 1645439074900,
-          "duration" : 7
+          "start" : 1645436960575,
+          "stop" : 1645436960579,
+          "duration" : 4
         },
         "status" : "passed",
         "steps" : [ ],
@@ -280,9 +325,9 @@
       }, {
         "name" : "click",
         "time" : {
-          "start" : 1645439074901,
-          "stop" : 1645439075093,
-          "duration" : 192
+          "start" : 1645436960579,
+          "stop" : 1645436960785,
+          "duration" : 206
         },
         "status" : "passed",
         "steps" : [ ],
@@ -295,8 +340,8 @@
       }, {
         "name" : "new url https://demoqa.com/text-box",
         "time" : {
-          "start" : 1645439075093,
-          "stop" : 1645439075093,
+          "start" : 1645436960785,
+          "stop" : 1645436960785,
           "duration" : 0
         },
         "status" : "passed",
@@ -317,17 +362,17 @@
     }, {
       "name" : "Then User Fill all the Details",
       "time" : {
-        "start" : 1645439075115,
-        "stop" : 1645439077153,
-        "duration" : 2038
+        "start" : 1645436960790,
+        "stop" : 1645436962651,
+        "duration" : 1861
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "xpath //input[@id='userName']",
         "time" : {
-          "start" : 1645439075123,
-          "stop" : 1645439075139,
-          "duration" : 16
+          "start" : 1645436960812,
+          "stop" : 1645436960817,
+          "duration" : 5
         },
         "status" : "passed",
         "steps" : [ ],
@@ -340,9 +385,9 @@
       }, {
         "name" : "type Ranjit Barik",
         "time" : {
-          "start" : 1645439075139,
-          "stop" : 1645439075999,
-          "duration" : 860
+          "start" : 1645436960817,
+          "stop" : 1645436961399,
+          "duration" : 582
         },
         "status" : "passed",
         "steps" : [ ],
@@ -355,9 +400,9 @@
       }, {
         "name" : "xpath //input[@id='userEmail']",
         "time" : {
-          "start" : 1645439075999,
-          "stop" : 1645439076016,
-          "duration" : 17
+          "start" : 1645436961399,
+          "stop" : 1645436961402,
+          "duration" : 3
         },
         "status" : "passed",
         "steps" : [ ],
@@ -370,9 +415,9 @@
       }, {
         "name" : "type barikranjit@gmail.com",
         "time" : {
-          "start" : 1645439076016,
-          "stop" : 1645439076598,
-          "duration" : 582
+          "start" : 1645436961402,
+          "stop" : 1645436962055,
+          "duration" : 653
         },
         "status" : "passed",
         "steps" : [ ],
@@ -385,9 +430,9 @@
       }, {
         "name" : "xpath //*[@id='currentAddress']",
         "time" : {
-          "start" : 1645439076598,
-          "stop" : 1645439076606,
-          "duration" : 8
+          "start" : 1645436962055,
+          "stop" : 1645436962062,
+          "duration" : 7
         },
         "status" : "passed",
         "steps" : [ ],
@@ -400,9 +445,9 @@
       }, {
         "name" : "type Cuttack",
         "time" : {
-          "start" : 1645439076606,
-          "stop" : 1645439076881,
-          "duration" : 275
+          "start" : 1645436962062,
+          "stop" : 1645436962344,
+          "duration" : 282
         },
         "status" : "passed",
         "steps" : [ ],
@@ -415,9 +460,9 @@
       }, {
         "name" : "xpath //*[@id='permanentAddress']",
         "time" : {
-          "start" : 1645439076881,
-          "stop" : 1645439076886,
-          "duration" : 5
+          "start" : 1645436962345,
+          "stop" : 1645436962349,
+          "duration" : 4
         },
         "status" : "passed",
         "steps" : [ ],
@@ -430,9 +475,9 @@
       }, {
         "name" : "type Cuttack",
         "time" : {
-          "start" : 1645439076886,
-          "stop" : 1645439077148,
-          "duration" : 262
+          "start" : 1645436962349,
+          "stop" : 1645436962648,
+          "duration" : 299
         },
         "status" : "passed",
         "steps" : [ ],
@@ -452,17 +497,17 @@
     }, {
       "name" : "Then User click on Submit Button",
       "time" : {
-        "start" : 1645439077153,
-        "stop" : 1645439077288,
-        "duration" : 135
+        "start" : 1645436962651,
+        "stop" : 1645436962821,
+        "duration" : 170
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "xpath //button[@id='submit']",
         "time" : {
-          "start" : 1645439077155,
-          "stop" : 1645439077160,
-          "duration" : 5
+          "start" : 1645436962654,
+          "stop" : 1645436962657,
+          "duration" : 3
         },
         "status" : "passed",
         "steps" : [ ],
@@ -475,9 +520,9 @@
       }, {
         "name" : "click",
         "time" : {
-          "start" : 1645439077160,
-          "stop" : 1645439077285,
-          "duration" : 125
+          "start" : 1645436962657,
+          "stop" : 1645436962819,
+          "duration" : 162
         },
         "status" : "passed",
         "steps" : [ ],
@@ -497,8 +542,8 @@
     }, {
       "name" : "\"after each\" hook",
       "time" : {
-        "start" : 1645439077302,
-        "stop" : 1645439077304,
+        "start" : 1645436962827,
+        "stop" : 1645436962829,
         "duration" : 2
       },
       "status" : "passed",
@@ -511,12 +556,14 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
+      "uid" : "d4765d1130601c8f",
       "name" : "video recording",
+      "source" : "d4765d1130601c8f.mp4",
       "type" : "video/mp4",
-      "size" : 0
+      "size" : 989803
     } ],
     "parameters" : [ ],
-    "stepsCount" : 33,
+    "stepsCount" : 36,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -537,46 +584,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "914efffb721050d4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645437385977,
-        "stop" : 1645437391269,
-        "duration" : 5292
-      }
-    }, {
-      "uid" : "d5cf08383199c72f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645437368243,
-        "stop" : 1645437375527,
-        "duration" : 7284
-      }
-    }, {
-      "uid" : "fe823f97f8c8890d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645436953447,
-        "stop" : 1645436962823,
-        "duration" : 9376
-      }
-    }, {
-      "uid" : "18088335f90dc26d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645364291084,
-        "stop" : 1645364296810,
-        "duration" : 5726
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ "Regression" ]
   },
-  "source" : "ba843e7c3a23f976.json",
+  "source" : "b92ed0028ac70215.json",
   "parameterValues" : [ ]
 }
