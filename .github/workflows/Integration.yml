@@ -40,7 +40,6 @@ jobs:
 
       - name: Cypress run Chrome
         runs-on: ubuntu-latest
-        container: cypress/browsers:node12.19.0-chrome86-ff82
         strategy:
           fail-fast: false
           matrix:
