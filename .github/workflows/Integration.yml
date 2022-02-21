@@ -39,17 +39,14 @@ jobs:
           $(npm bin)/cypress verify
 
       - name: Cypress run Chrome
-        uses: cypress-io/github-action@v2
+        run: npm run Cypress-All
+        continue-on-error: true
+        
+      - name: Upload Video Artifacts
+        uses: actions/upload-artifact@v1
+        #if: failure()
         with:
-          config-file: cypress/integration/Config.json
-          spec: cypress/integration/*/*.feature 
-          browser: chrome
-          parallel: true
-          record: true
-        env:
-          allure: true
-          TAGS: "@Smoke"
-          CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          name: cypress-videos
+          path: cypress/videos
      
 
