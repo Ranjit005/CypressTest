@@ -4,7 +4,7 @@
     "name" : "API",
     "children" : [ {
       "name" : "TC003:Validate API Test",
-      "uid" : "8342da7f6bbe21ee",
+      "uid" : "5eb7a38016c30aa9",
       "parentUid" : "14fa7b099890ed134a386db0936127bb",
       "status" : "passed",
       "time" : {
@@ -16,21 +16,8 @@
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "TC002:Validate API Test",
-      "uid" : "fdafaa421a2ec60a",
-      "parentUid" : "14fa7b099890ed134a386db0936127bb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645412111495,
-        "stop" : 1645412113146,
-        "duration" : 1651
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
       "name" : "TC001:Validate API Test",
-      "uid" : "eaae780739397361",
+      "uid" : "aed454acb56fc1ab",
       "parentUid" : "14fa7b099890ed134a386db0936127bb",
       "status" : "passed",
       "time" : {
@@ -41,13 +28,26 @@
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
+    }, {
+      "name" : "TC002:Validate API Test",
+      "uid" : "5404d9acbd5b3d06",
+      "parentUid" : "14fa7b099890ed134a386db0936127bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645439103714,
+        "stop" : 1645439105326,
+        "duration" : 1612
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
     } ],
     "uid" : "14fa7b099890ed134a386db0936127bb"
   }, {
     "name" : "UI",
     "children" : [ {
       "name" : "TC001:Validate HomePage",
-      "uid" : "adfd06abd2823991",
+      "uid" : "a21f547524283a88",
       "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
       "status" : "passed",
       "time" : {
@@ -59,27 +59,27 @@
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "TC003:Validate HomePage",
-      "uid" : "f0c60008b29a51a8",
+      "name" : "TC002:Validate HomePage",
+      "uid" : "15838a38e46cb5cc",
       "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
       "status" : "passed",
       "time" : {
-        "start" : 1645412148581,
-        "stop" : 1645412153148,
-        "duration" : 4567
+        "start" : 1645439068249,
+        "stop" : 1645439077289,
+        "duration" : 9040
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "TC002:Validate HomePage",
-      "uid" : "9343b77a5e0f78e8",
+      "name" : "TC003:Validate HomePage",
+      "uid" : "ce4a721fbffc04aa",
       "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
       "status" : "passed",
       "time" : {
-        "start" : 1645437385977,
-        "stop" : 1645437391269,
-        "duration" : 5292
+        "start" : 1645439089357,
+        "stop" : 1645439093914,
+        "duration" : 4557
       },
       "flaky" : false,
       "newFailed" : false,
