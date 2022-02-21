@@ -46,8 +46,6 @@ jobs:
           browser: chrome
           parallel: true
           record: true
-          video: true
-          videoCompression: 32
         env:
           allure: true
           CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
@@ -60,22 +58,18 @@ jobs:
           browser: firefox
           parallel: true
           record: true
-          video: true
-          videoCompression: 32
         env:
           allure: true
           CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-      - name: Cypress run Firefox
+      - name: Cypress run Edge
         uses: cypress-io/github-action@v2
         with:
           config-file: cypress/integration/Config.json
           spec: cypress/integration/*/*.feature
-          browser: firefox
+          browser: edge
           parallel: true
           record: true
-          video: true
-          videoCompression: 32
         env:
           allure: true
           CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
