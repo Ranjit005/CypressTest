@@ -1,5 +1,5 @@
 {
-  "uid" : "facdff64ab70b754",
+  "uid" : "11a82262dfabb1b",
   "name" : "TC003:Validate HomePage",
   "fullName" : "TC003:Validate HomePage",
   "historyId" : "d4eb1ab67f92f3513cddc99c1364dc42",
@@ -25,10 +25,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "Given User Open Url",
       "time" : {
@@ -48,10 +48,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "GET 200 https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
         "time" : {
@@ -63,10 +63,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1863906576&t=pageview&_s=1&dl=https://demoqa.com/&ul=en-us&de=UTF-8&dt=ToolsQA&sd=24-bit&sr=1280x721&vp=988x660&je=0&_u=YEBAAEABAAAAAC~&jid=756279381&gjid=895601436&cid=74732562.1645412150&tid=UA-109033876-1&_gid=1681280232.1645412150&_r=1&gtm=2wg2g0MX8DD4S&z=723783578",
         "time" : {
@@ -78,10 +78,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "POST 200 https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-109033876-1&cid=74732562.1645412150&jid=756279381&gjid=895601436&_gid=1681280232.1645412150&_u=YEBAAEAAAAAAAC~&z=1515961124",
         "time" : {
@@ -93,10 +93,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "POST 200 https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1863906576&t=pageview&_s=1&dl=https%3A%2F%2Fdemoqa.com%2F&ul=en-us&de=UTF-8&dt=ToolsQA&sd=24-bit&sr=1280x721&vp=988x660&je=0&_u=YEBAAEABAAAAAC~&jid=756279381&gjid=895601436&cid=74732562.1645412150&tid=UA-109033876-1&_gid=1681280232.1645412150&_r=1&gtm=2wg2g0MX8DD4S&z=723783578",
         "time" : {
@@ -108,10 +108,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "GET https://securepubads.g.doubleclick.net/gampad/ads?pvsid=3576456426930852&correlator=2375492092662387&eid=31064151,31065011,31060889,31064019&output=ldjh&gdfp_req=1&vrg=2022021401&ptt=17&impl=fif&sc=1&sfv=1-0-38&ecs=20220221&iu_parts=21849154601:22343295815,Ad.Plus-Anchor&enc_prev_ius=/0/1&prev_iu_szs=320x100&prev_scp=site=demoqa.com&cookie=ID=0f7e1ef1ac6cffd0-22ec52ea1ed0006f:T=1645412149:RT=1645412149:S=ALNI_MaZY7bcy_nWnddhm5Z3KgUteJIIwA&cdm=demoqa.com&bc=31&abxe=1&dt=1645412149931&lmt=1645382807&dlt=1645412148806&idt=1046&frm=23&biw=1280&bih=720&isw=988&ish=660&oid=2&adxs=9&adys=660&adks=1054281660&ucis=lauzy2uakb8m&ifi=2&u_his=3&u_h=721&u_w=1280&u_ah=721&u_aw=1280&u_cd=24&u_sd=1&flash=0&nhd=1&url=https://demoqa.com/&top=https://demoqa.com/__/#/tests/integration/UI/Test3.feature&vis=1&scr_x=0&scr_y=0&psz=970x-1&msz=970x-1&ga_vid=74732562.1645412150&ga_sid=1645412150&ga_hid=1863906576&ga_fc=true&fws=772&ohw=970&btvi=0&nvt=1",
         "time" : {
@@ -123,10 +123,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "GET https://securepubads.g.doubleclick.net/gampad/ads?pvsid=3576456426930852&correlator=2375492092662387&eid=31064151,31065011,31060889,31064019&output=ldjh&gdfp_req=1&vrg=2022021401&ptt=17&impl=fif&sc=1&sfv=1-0-38&ecs=20220221&iu_parts=21849154601:22343295815,Ad.Plus-MultiPlex&enc_prev_ius=/0/1&prev_iu_szs=320x50&fluid=height&cookie=ID=0f7e1ef1ac6cffd0-22ec52ea1ed0006f:T=1645412149:RT=1645412149:S=ALNI_MaZY7bcy_nWnddhm5Z3KgUteJIIwA&cdm=demoqa.com&bc=31&abxe=1&dt=1645412149937&lmt=1645382807&dlt=1645412148806&idt=1046&frm=23&biw=1280&bih=720&isw=988&ish=660&oid=2&adxs=0&adys=1362&adks=2849331663&ucis=tr8cku8sqxa&ifi=3&u_his=3&u_h=721&u_w=1280&u_ah=721&u_aw=1280&u_cd=24&u_sd=1&flash=0&nhd=1&url=https://demoqa.com/&top=https://demoqa.com/__/#/tests/integration/UI/Test3.feature&vis=1&scr_x=0&scr_y=0&psz=988x660&msz=988x0&ga_vid=74732562.1645412150&ga_sid=1645412150&ga_hid=1863906576&ga_fc=true&fws=256&ohw=0&btvi=1&nvt=1",
         "time" : {
@@ -138,10 +138,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "GET 200 https://securepubads.g.doubleclick.net/gampad/ads?pvsid=3576456426930852&correlator=2375492092662387&eid=31064151%2C31065011%2C31060889%2C31064019&output=ldjh&gdfp_req=1&vrg=2022021401&ptt=17&impl=fif&sc=1&sfv=1-0-38&ecs=20220221&iu_parts=21849154601%3A22343295815%2CAd.Plus-Anchor&enc_prev_ius=%2F0%2F1&prev_iu_szs=320x100&prev_scp=site%3Ddemoqa.com&cookie=ID%3D0f7e1ef1ac6cffd0-22ec52ea1ed0006f%3AT%3D1645412149%3ART%3D1645412149%3AS%3DALNI_MaZY7bcy_nWnddhm5Z3KgUteJIIwA&cdm=demoqa.com&bc=31&abxe=1&dt=1645412149931&lmt=1645382807&dlt=1645412148806&idt=1046&frm=23&biw=1280&bih=720&isw=988&ish=660&oid=2&adxs=9&adys=660&adks=1054281660&ucis=lauzy2uakb8m&ifi=2&u_his=3&u_h=721&u_w=1280&u_ah=721&u_aw=1280&u_cd=24&u_sd=1&flash=0&nhd=1&url=https%3A%2F%2Fdemoqa.com%2F&top=https%3A%2F%2Fdemoqa.com%2F__%2F%23%2Ftests%2Fintegration%2FUI%2FTest3.feature&vis=1&scr_x=0&scr_y=0&psz=970x-1&msz=970x-1&ga_vid=74732562.1645412150&ga_sid=1645412150&ga_hid=1863906576&ga_fc=true&fws=772&ohw=970&btvi=0&nvt=1",
         "time" : {
@@ -153,10 +153,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "GET https://securepubads.g.doubleclick.net/gampad/ads?pvsid=3576456426930852&correlator=2375492092662387&eid=31064151%2C31065011%2C31060889%2C31064019&output=ldjh&gdfp_req=1&vrg=2022021401&ptt=17&impl=fif&sc=1&sfv=1-0-38&ecs=20220221&iu_parts=21849154601%3A22343295815%2CAd.Plus-MultiPlex&enc_prev_ius=%2F0%2F1&prev_iu_szs=320x50&fluid=height&cookie=ID%3D0f7e1ef1ac6cffd0-22ec52ea1ed0006f%3AT%3D1645412149%3ART%3D1645412149%3AS%3DALNI_MaZY7bcy_nWnddhm5Z3KgUteJIIwA&cdm=demoqa.com&bc=31&abxe=1&dt=1645412149937&lmt=1645382807&dlt=1645412148806&idt=1046&frm=23&biw=1280&bih=720&isw=988&ish=660&oid=2&adxs=0&adys=1362&adks=2849331663&ucis=tr8cku8sqxa&ifi=3&u_his=3&u_h=721&u_w=1280&u_ah=721&u_aw=1280&u_cd=24&u_sd=1&flash=0&nhd=1&url=https%3A%2F%2Fdemoqa.com%2F&top=https%3A%2F%2Fdemoqa.com%2F__%2F%23%2Ftests%2Fintegration%2FUI%2FTest3.feature&vis=1&scr_x=0&scr_y=0&psz=988x660&msz=988x0&ga_vid=74732562.1645412150&ga_sid=1645412150&ga_hid=1863906576&ga_fc=true&fws=256&ohw=0&btvi=1&nvt=1",
         "time" : {
@@ -168,10 +168,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "GET https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gda&tv=r20220216&st=env",
         "time" : {
@@ -183,17 +183,17 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 10,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 10
+      "hasContent" : true
     }, {
       "name" : "Then User Click on Element",
       "time" : {
@@ -213,10 +213,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "click",
         "time" : {
@@ -228,10 +228,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "new url https://demoqa.com/elements",
         "time" : {
@@ -243,17 +243,17 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 3,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 3
+      "hasContent" : true
     }, {
       "name" : "Then User Click on TextBox",
       "time" : {
@@ -273,10 +273,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "click",
         "time" : {
@@ -288,10 +288,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "new url https://demoqa.com/text-box",
         "time" : {
@@ -303,17 +303,17 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 3,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 3
+      "hasContent" : true
     }, {
       "name" : "Then User Fill all the Details",
       "time" : {
@@ -333,10 +333,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "type Ranjit Barik",
         "time" : {
@@ -348,10 +348,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "xpath //input[@id='userEmail']",
         "time" : {
@@ -363,10 +363,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "type barikranjit@gmail.com",
         "time" : {
@@ -378,10 +378,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "xpath //*[@id='currentAddress']",
         "time" : {
@@ -393,10 +393,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "type Cuttack",
         "time" : {
@@ -408,10 +408,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "xpath //*[@id='permanentAddress']",
         "time" : {
@@ -423,10 +423,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "type Cuttack",
         "time" : {
@@ -438,17 +438,17 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 8,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 8
+      "hasContent" : true
     }, {
       "name" : "Then User click on Submit Button",
       "time" : {
@@ -468,10 +468,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "click",
         "time" : {
@@ -483,17 +483,17 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 2,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 2
+      "hasContent" : true
     }, {
       "name" : "\"after each\" hook",
       "time" : {
@@ -505,10 +505,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     } ],
     "attachments" : [ {
       "name" : "video recording",
@@ -516,10 +516,10 @@
       "size" : 0
     } ],
     "parameters" : [ ],
+    "stepsCount" : 33,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 33
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -543,6 +543,6 @@
     "categories" : [ ],
     "tags" : [ "Regression" ]
   },
-  "source" : "facdff64ab70b754.json",
+  "source" : "11a82262dfabb1b.json",
   "parameterValues" : [ ]
 }
