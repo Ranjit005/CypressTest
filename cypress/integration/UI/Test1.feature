@@ -1,6 +1,6 @@
 @suite("UI")
 Feature: Test E2E 
-    @Regression
+    @Smoke
     Scenario:TC002:Validate HomePage
     Given User Open Url
     Then User Click on Element

@@ -1,6 +1,6 @@
 @suite("API")
 Feature: Test E2E 
-    @Regression
+    @Smoke
     Scenario:TC004:Validate API Test
     Then User Validates Post Call
     Then User Validates Get Call
