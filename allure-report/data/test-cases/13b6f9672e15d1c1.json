@@ -1,0 +1,90 @@
+{
+  "uid" : "13b6f9672e15d1c1",
+  "name" : "TC001:Validate HomePage",
+  "fullName" : "TC001:Validate HomePage",
+  "historyId" : "7eafa870ff8ebb79a0b93c61de04339a",
+  "time" : {
+    "start" : 1645441933523,
+    "stop" : 1645441933525,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Test ignored",
+    "steps" : [ {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1645441933532,
+        "stop" : 1645441933532,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "715ca68ad17a9fb4",
+      "name" : "video recording",
+      "source" : "715ca68ad17a9fb4.mp4",
+      "type" : "video/mp4",
+      "size" : 210127
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "UI"
+  }, {
+    "name" : "feature",
+    "value" : "Test E2E"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c8f8af53f78d0644",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645440392825,
+        "stop" : 1645440402113,
+        "duration" : 9288
+      }
+    }, {
+      "uid" : "b83e9ac5a243a169",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645412127317,
+        "stop" : 1645412136006,
+        "duration" : 8689
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Regression" ]
+  },
+  "source" : "13b6f9672e15d1c1.json",
+  "parameterValues" : [ ]
+}
