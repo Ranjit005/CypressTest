@@ -44,7 +44,7 @@ jobs:
           config-file: cypress/integration/Config.json
           spec: cypress/integration/*/*.feature
           browser: chrome
-          tag: Smoke
+          TAG: @Smoke
           parallel: true
           record: true
         env:
