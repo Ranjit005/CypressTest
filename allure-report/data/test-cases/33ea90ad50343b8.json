@@ -1,5 +1,5 @@
 {
-  "uid" : "6462f1f812750bdf",
+  "uid" : "33ea90ad50343b8",
   "name" : "TC002:Validate HomePage",
   "fullName" : "TC002:Validate HomePage",
   "historyId" : "db0fb9a21891de97cba96661dbf54708",
@@ -571,9 +571,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "85c9a14b8641cc5e",
+      "uid" : "226523c60f79f761",
       "name" : "video recording",
-      "source" : "85c9a14b8641cc5e.mp4",
+      "source" : "226523c60f79f761.mp4",
       "type" : "video/mp4",
       "size" : 1086883
     } ],
@@ -605,6 +605,6 @@
     "categories" : [ ],
     "tags" : [ "Regression" ]
   },
-  "source" : "6462f1f812750bdf.json",
+  "source" : "33ea90ad50343b8.json",
   "parameterValues" : [ ]
 }
