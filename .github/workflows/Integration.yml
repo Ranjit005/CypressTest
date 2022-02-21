@@ -68,12 +68,5 @@ jobs:
         with:
             github_token: '${{ secrets.GITHUB_TOKEN }}'
             force: true
-
-      - name: Upload Video Artifacts
-        uses: actions/upload-artifact@v1
-        #if: failure()
-        with:
-          name: cypress-videos
-          path: cypress/videos
      
 
