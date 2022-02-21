@@ -10,12 +10,7 @@ on:
 jobs:
   cypress-test:
     name: Parallel Testing
-    runs-on: ubuntu-latest
-   # container: cypress/browsers:node12.19.0-chrome86-ff82
-    strategy:
-      fail-fast: false
-      matrix:
-        containers: [1, 2, 3]
+ 
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-java@v1
