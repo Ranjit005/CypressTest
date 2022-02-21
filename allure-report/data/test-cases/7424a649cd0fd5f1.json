@@ -1,5 +1,5 @@
 {
-  "uid" : "b1a02540295c3e20",
+  "uid" : "7424a649cd0fd5f1",
   "name" : "TC003:Validate HomePage",
   "fullName" : "TC003:Validate HomePage",
   "historyId" : "d4eb1ab67f92f3513cddc99c1364dc42",
@@ -511,9 +511,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "fc88f276dbfb9470",
+      "uid" : "e41ee1289938f9ab",
       "name" : "video recording",
-      "source" : "fc88f276dbfb9470.mp4",
+      "source" : "e41ee1289938f9ab.mp4",
       "type" : "video/mp4",
       "size" : 693546
     } ],
@@ -539,22 +539,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "8e6de882fb34a632",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645364307346,
-        "stop" : 1645364311000,
-        "duration" : 3654
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ "Regression" ]
   },
-  "source" : "b1a02540295c3e20.json",
+  "source" : "7424a649cd0fd5f1.json",
   "parameterValues" : [ ]
 }
