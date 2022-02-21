@@ -1,6 +1,5 @@
-@Smoke
 Feature: Test E2E 
-    
+    @Smoke
     Scenario:TC002:Validate API Test
     Then User Validates Post Call
     Then User Validates Get Call

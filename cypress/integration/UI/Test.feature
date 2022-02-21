@@ -1,6 +1,5 @@
-@Regression
 Feature: Test E2E 
-    
+    @Regression
     Scenario:TC001:Validate HomePage
     Given User Open Url
     Then User Click on Element
