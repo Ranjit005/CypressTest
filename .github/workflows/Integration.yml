@@ -42,13 +42,13 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           config-file: cypress/integration/Config.json
-          spec: cypress/integration/*/*.feature
+          spec: cypress/integration/*/*.feature 
           browser: chrome
-          TAGS: Smoke
           parallel: true
           record: true
         env:
           allure: true
+          TAGS: Smoke
           CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
       - name: Generate Allure report
