@@ -9,7 +9,7 @@ on:
 
 jobs:
   cypress-test:
-    name: Parallel Testing
+    name: Run on Chrome 97
     runs-on: ubuntu-latest
    # container: cypress/browsers:node12.19.0-chrome86-ff82
     strategy:
@@ -37,20 +37,21 @@ jobs:
         run: |
           npm ci
           $(npm bin)/cypress verify
+
       - name: Cypress run Chrome
         uses: cypress-io/github-action@v2
         with:
           config-file: cypress/integration/Config.json
-          spec: cypress/integration/*/*.feature 
+          spec: cypress/integration/*/*.feature
           browser: chrome
           parallel: true
           record: true
         env:
           allure: true
-          TAGS: "@Smoke"
+          TAGS: '@Smoke'
           CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-        - name: Generate Allure report
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }} 
+      - name: Generate Allure report
         if: always()
         uses: QuintilianoNery/action-allure-report-V2@0.2.0
 
