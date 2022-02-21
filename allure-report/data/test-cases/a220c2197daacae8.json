@@ -1,5 +1,5 @@
 {
-  "uid" : "6cde7cafab4ea7cc",
+  "uid" : "a220c2197daacae8",
   "name" : "TC002:Validate API Test",
   "fullName" : "TC002:Validate API Test",
   "historyId" : "f33da67a3de8eeca43913d49b621a687",
@@ -211,9 +211,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "4330e20683f07d2f",
+      "uid" : "8153672206925dfb",
       "name" : "video recording",
-      "source" : "4330e20683f07d2f.mp4",
+      "source" : "8153672206925dfb.mp4",
       "type" : "video/mp4",
       "size" : 336590
     } ],
@@ -244,7 +244,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "49d6d27b8f2b5dc6",
+      "uid" : "9390c14d13a3a792",
       "status" : "passed",
       "time" : {
         "start" : 1645439103714,
@@ -252,7 +252,7 @@
         "duration" : 1612
       }
     }, {
-      "uid" : "e14c775e54570e0d",
+      "uid" : "2d2f3368277f8699",
       "status" : "passed",
       "time" : {
         "start" : 1645412111495,
@@ -260,7 +260,7 @@
         "duration" : 1651
       }
     }, {
-      "uid" : "d11214cd23136108",
+      "uid" : "1aabfeb0ab3a530f",
       "status" : "passed",
       "time" : {
         "start" : 1645364328466,
@@ -271,6 +271,6 @@
     "categories" : [ ],
     "tags" : [ "Smoke" ]
   },
-  "source" : "6cde7cafab4ea7cc.json",
+  "source" : "a220c2197daacae8.json",
   "parameterValues" : [ ]
 }
