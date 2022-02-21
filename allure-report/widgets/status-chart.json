@@ -1,35 +1,5 @@
 [ {
-  "uid" : "8b93ff7a0d065b47",
-  "name" : "TC001:Validate API Test",
-  "time" : {
-    "start" : 1645437398314,
-    "stop" : 1645437399808,
-    "duration" : 1494
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d37ec2569aa99a6",
-  "name" : "TC003:Validate API Test",
-  "time" : {
-    "start" : 1645411681247,
-    "stop" : 1645411682928,
-    "duration" : 1681
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "11a7160be0a0b6aa",
-  "name" : "TC002:Validate API Test",
-  "time" : {
-    "start" : 1645412111495,
-    "stop" : 1645412113146,
-    "duration" : 1651
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "322c9389c60e124a",
+  "uid" : "9343b77a5e0f78e8",
   "name" : "TC002:Validate HomePage",
   "time" : {
     "start" : 1645437385977,
@@ -39,22 +9,52 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3d9007fa48358591",
-  "name" : "TC001:Validate HomePage",
+  "uid" : "fdafaa421a2ec60a",
+  "name" : "TC002:Validate API Test",
   "time" : {
-    "start" : 1645412127317,
-    "stop" : 1645412136006,
-    "duration" : 8689
+    "start" : 1645412111495,
+    "stop" : 1645412113146,
+    "duration" : 1651
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "de3b786a19a4837a",
+  "uid" : "eaae780739397361",
+  "name" : "TC001:Validate API Test",
+  "time" : {
+    "start" : 1645437398314,
+    "stop" : 1645437399808,
+    "duration" : 1494
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0c60008b29a51a8",
   "name" : "TC003:Validate HomePage",
   "time" : {
     "start" : 1645412148581,
     "stop" : 1645412153148,
     "duration" : 4567
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8342da7f6bbe21ee",
+  "name" : "TC003:Validate API Test",
+  "time" : {
+    "start" : 1645411681247,
+    "stop" : 1645411682928,
+    "duration" : 1681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "adfd06abd2823991",
+  "name" : "TC001:Validate HomePage",
+  "time" : {
+    "start" : 1645412127317,
+    "stop" : 1645412136006,
+    "duration" : 8689
   },
   "status" : "passed",
   "severity" : "normal"
