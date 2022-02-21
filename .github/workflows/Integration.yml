@@ -11,7 +11,7 @@ jobs:
   cypress-test:
     name: Run on Chrome 97
     runs-on: ubuntu-latest
-    container: cypress/browsers:node12.19.0-chrome86-ff82
+   # container: cypress/browsers:node12.19.0-chrome86-ff82
     strategy:
       fail-fast: false
       matrix:
@@ -42,7 +42,7 @@ jobs:
         with:
           config-file: cypress/integration/Config.json
           spec: cypress/integration/*/*.feature
-          browser: chrome
+          browser: firefox
           parallel: true
           record: true
         env:
