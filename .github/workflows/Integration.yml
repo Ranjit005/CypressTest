@@ -39,9 +39,37 @@ jobs:
           $(npm bin)/cypress verify
 
       - name: Cypress run Chrome
-        run: npm run Cypress-All
-        continue-on-error: true
-        
+        uses: cypress-io/github-action@v2
+        with:
+          config-file: cypress/integration/Config.json
+          spec: cypress/integration/*/*.feature 
+          browser: chrome
+          parallel: true
+          record: true
+        env:
+          allure: true
+          TAGS: '@Smoke'
+          CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+        - name: Generate Allure report
+        if: always()
+        uses: QuintilianoNery/action-allure-report-V2@0.2.0
+
+      - name: Commit report results
+        if: always()
+        run: |
+            git config --local user.email "barikranjit461@gmail.com"
+            git config --local user.name "Ranjit005"
+            git add allure-report -f
+            git add allure-results -f
+            git commit -m "[chore] autogenerate Allure report" -a
+      - name: Push changes
+        if: always()
+        uses: ad-m/github-push-action@master
+        with:
+            github_token: '${{ secrets.GITHUB_TOKEN }}'
+            force: true
+
       - name: Upload Video Artifacts
         uses: actions/upload-artifact@v1
         #if: failure()
