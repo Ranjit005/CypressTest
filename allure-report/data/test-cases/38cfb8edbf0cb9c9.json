@@ -1,5 +1,5 @@
 {
-  "uid" : "a0693d8953729569",
+  "uid" : "38cfb8edbf0cb9c9",
   "name" : "TC003:Validate HomePage",
   "fullName" : "TC003:Validate HomePage",
   "historyId" : "d4eb1ab67f92f3513cddc99c1364dc42",
@@ -466,9 +466,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "8f1a5fdd3e7efb71",
+      "uid" : "1f238e987bbc361a",
       "name" : "video recording",
-      "source" : "8f1a5fdd3e7efb71.mp4",
+      "source" : "1f238e987bbc361a.mp4",
       "type" : "video/mp4",
       "size" : 951479
     } ],
@@ -500,6 +500,6 @@
     "categories" : [ ],
     "tags" : [ "Smoke" ]
   },
-  "source" : "a0693d8953729569.json",
+  "source" : "38cfb8edbf0cb9c9.json",
   "parameterValues" : [ ]
 }
