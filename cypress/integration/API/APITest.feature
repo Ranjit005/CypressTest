@@ -1,6 +1,6 @@
-@suite("API")
+@Regression
 Feature: Test E2E 
-    @Regression
+    
     Scenario:TC001:Validate API Test
     Then User Validates Post Call
     Then User Validates Get Call
