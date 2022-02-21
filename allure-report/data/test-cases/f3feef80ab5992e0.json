@@ -1,5 +1,5 @@
 {
-  "uid" : "fad0b5ed2e233513",
+  "uid" : "f3feef80ab5992e0",
   "name" : "TC002:Validate API Test",
   "fullName" : "TC002:Validate API Test",
   "historyId" : "f33da67a3de8eeca43913d49b621a687",
@@ -242,7 +242,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "db1fb47751c22c50",
+      "uid" : "786bde5b0ca640e0",
       "status" : "passed",
       "time" : {
         "start" : 1645364328466,
@@ -253,6 +253,6 @@
     "categories" : [ ],
     "tags" : [ "Regression" ]
   },
-  "source" : "fad0b5ed2e233513.json",
+  "source" : "f3feef80ab5992e0.json",
   "parameterValues" : [ ]
 }

@@ -1,53 +1,10 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "children" : [ {
-    "name" : "UI",
-    "children" : [ {
-      "name" : "TC002:Validate HomePage",
-      "uid" : "9f7dce178cf1922c",
-      "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645364291084,
-        "stop" : 1645364296810,
-        "duration" : 5726
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "TC001:Validate HomePage",
-      "uid" : "8b4b25333cbb5d9a",
-      "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645412127317,
-        "stop" : 1645412136006,
-        "duration" : 8689
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "TC003:Validate HomePage",
-      "uid" : "315bf61325e7d98",
-      "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645412148581,
-        "stop" : 1645412153148,
-        "duration" : 4567
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "6bfa3d1bea669a46b5644d20357bd4d8"
-  }, {
     "name" : "API",
     "children" : [ {
       "name" : "TC003:Validate API Test",
-      "uid" : "d3597251345bd55e",
+      "uid" : "ab95695174ad3727",
       "parentUid" : "14fa7b099890ed134a386db0936127bb",
       "status" : "passed",
       "time" : {
@@ -60,7 +17,7 @@
       "parameters" : [ ]
     }, {
       "name" : "TC002:Validate API Test",
-      "uid" : "fad0b5ed2e233513",
+      "uid" : "f3feef80ab5992e0",
       "parentUid" : "14fa7b099890ed134a386db0936127bb",
       "status" : "passed",
       "time" : {
@@ -73,6 +30,49 @@
       "parameters" : [ ]
     } ],
     "uid" : "14fa7b099890ed134a386db0936127bb"
+  }, {
+    "name" : "UI",
+    "children" : [ {
+      "name" : "TC001:Validate HomePage",
+      "uid" : "686f7c8a90f25a5a",
+      "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645412127317,
+        "stop" : 1645412136006,
+        "duration" : 8689
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC003:Validate HomePage",
+      "uid" : "4404d62edfea1eca",
+      "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645412148581,
+        "stop" : 1645412153148,
+        "duration" : 4567
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC002:Validate HomePage",
+      "uid" : "1d18e61e7a001a0c",
+      "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645436953447,
+        "stop" : 1645436962823,
+        "duration" : 9376
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6bfa3d1bea669a46b5644d20357bd4d8"
   } ],
   "name" : "suites"
 }
