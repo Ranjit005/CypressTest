@@ -43,7 +43,7 @@ jobs:
         with:
           config-file: cypress/integration/Config.json
           spec: cypress/integration/*/*.feature
-          browser: edge
+          browser: firefox
           parallel: true
           record: true
         env:
