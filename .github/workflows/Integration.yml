@@ -9,7 +9,7 @@ on:
 
 jobs:
   cypress-test:
-    name: Run on Chrome 97
+    name: Parallel Testing
     runs-on: ubuntu-latest
    # container: cypress/browsers:node12.19.0-chrome86-ff82
     strategy:
@@ -39,6 +39,12 @@ jobs:
           $(npm bin)/cypress verify
 
       - name: Cypress run Chrome
+        runs-on: ubuntu-latest
+        container: cypress/browsers:node12.19.0-chrome86-ff82
+        strategy:
+          fail-fast: false
+          matrix:
+            containers: [1, 2, 3]
         uses: cypress-io/github-action@v2
         with:
           config-file: cypress/integration/Config.json
@@ -49,8 +55,13 @@ jobs:
         env:
           allure: true
           CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }} 
-      - name: Cypress run Firefox
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+      - name: Cypress run firefox
+        runs-on: ubuntu-latest
+        strategy:
+          fail-fast: false
+          matrix:
+            containers: [1, 2, 3]
         uses: cypress-io/github-action@v2
         with:
           config-file: cypress/integration/Config.json
@@ -62,19 +73,6 @@ jobs:
           allure: true
           CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-      - name: Cypress run Edge
-        uses: cypress-io/github-action@v2
-        with:
-          config-file: cypress/integration/Config.json
-          spec: cypress/integration/*/*.feature
-          browser: edge
-          parallel: true
-          record: true
-        env:
-          allure: true
-          CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}       
-          
       - name: Generate Allure report
         if: always()
         uses: QuintilianoNery/action-allure-report-V2@0.2.0
