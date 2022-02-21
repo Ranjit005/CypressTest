@@ -1,5 +1,5 @@
 {
-  "uid" : "2b624f5e7ebb78a8",
+  "uid" : "a0693d8953729569",
   "name" : "TC003:Validate HomePage",
   "fullName" : "TC003:Validate HomePage",
   "historyId" : "d4eb1ab67f92f3513cddc99c1364dc42",
@@ -466,9 +466,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "c7ff0c5122caf4bb",
+      "uid" : "8f1a5fdd3e7efb71",
       "name" : "video recording",
-      "source" : "c7ff0c5122caf4bb.mp4",
+      "source" : "8f1a5fdd3e7efb71.mp4",
       "type" : "video/mp4",
       "size" : 951479
     } ],
@@ -494,46 +494,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "e50678ef2e94bd7a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645439089357,
-        "stop" : 1645439093914,
-        "duration" : 4557
-      }
-    }, {
-      "uid" : "30558d2ed53bbfdb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645412148581,
-        "stop" : 1645412153148,
-        "duration" : 4567
-      }
-    }, {
-      "uid" : "5ebeb92d2f9567b5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645411663595,
-        "stop" : 1645411671306,
-        "duration" : 7711
-      }
-    }, {
-      "uid" : "f29e9fe628d8a587",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645364307346,
-        "stop" : 1645364311000,
-        "duration" : 3654
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ "Smoke" ]
   },
-  "source" : "2b624f5e7ebb78a8.json",
+  "source" : "a0693d8953729569.json",
   "parameterValues" : [ ]
 }
