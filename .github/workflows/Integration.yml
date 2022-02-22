@@ -35,12 +35,12 @@ jobs:
           npm ci
           $(npm bin)/cypress verify
 
-      - name: Cypress run Chrome
+      - name: Cypress run Edge
         uses: cypress-io/github-action@v2
         with:
           config-file: cypress/integration/Config.json
           spec: cypress/integration/*/*.feature
-          browser: chrome
+          browser: /usr/bin/microsoft-edge-dev
           parallel: true
           record: true
         env:
