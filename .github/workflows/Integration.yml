@@ -18,18 +18,6 @@ jobs:
         containers: [1, 2, 3]
     steps:
       - uses: actions/checkout@v2
-      - name: Check Cypress cache
-        run: |
-            npx cypress cache path
-            npx cypress cache list
-      - name: restore / cache the binary
-        id: cache-cypress
-        uses: actions/cache@v1
-        with:
-            path: ~/.cache/Cypress
-            key: >-
-                cypress-cache-v2-${{ runner.os }}-${{ hashFiles('**/package.json')
-                }}
       - name: Install cypress and verify
         run: |
           npm ci
