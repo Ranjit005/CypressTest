@@ -34,21 +34,26 @@ jobs:
         run: |
           npm ci
           $(npm bin)/cypress verify
-      - name: Install Edge Browser
-        run: |
-          curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
-          sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
-          sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main" > /etc/apt/sources.list.d/microsoft-edge-dev.list'
-          sudo rm microsoft.gpg
-          sudo apt update
-          sudo apt install microsoft-edge-dev
-      - name: Cypress run Edge
+      - name: Cypress run Chrome
         uses: cypress-io/github-action@v2
         with:
           config-file: cypress/integration/Config.json
           spec: cypress/integration/*/*.feature
-          browser: edge
+          browser: chrome
           parallel: true
+          record: true
+        env:
+          allure: true
+          TAGS: '@Smoke'
+          CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }} 
+      - name: Cypress run Firefox
+        uses: cypress-io/github-action@v2
+        with:
+          config-file: cypress/integration/Config.json
+          spec: cypress/integration/*/*.feature
+          browser: firefox
+          parallel: false
           record: true
         env:
           allure: true
