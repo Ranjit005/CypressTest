@@ -9,7 +9,7 @@ on:
 
 jobs:
   cypress-test:
-    name: Run on Chrome 97
+    name: Run on Chrome 98
     runs-on: ubuntu-latest
    # container: cypress/browsers:node12.19.0-chrome86-ff82
     strategy:
