@@ -53,7 +53,7 @@ jobs:
           config-file: cypress/integration/Config.json
           spec: cypress/integration/*/*.feature
           browser: firefox
-          parallel: false
+          parallel: true
           record: true
         env:
           allure: true
