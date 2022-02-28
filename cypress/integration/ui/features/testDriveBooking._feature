@@ -1,0 +1,32 @@
+#Commented due to env problems on staging: cars data mixes betwenn sold and available cars
+@Buyer
+Feature: Test Drive Booking
+
+  @RegressionTest
+  Scenario: Main Flow on TDB At Shift
+    Given I update the env to staging
+    And I setup TDB cookies
+#And I navigate to staging cars page
+#And I select the first car result
+#And I select to book a test drive at Shift
+#And I select Get Started on How it Works
+#And I select a date on Appointment Booking
+#And I input my information on Contact Details
+#And I verify the confirmation page
+#And I cancel the appointment
+
+#Scenario: Main Flow on TDB At Home
+#Given I update the env to staging
+#And I setup TDB cookies
+#And I navigate to staging cars page
+#And I select the first car result
+#And I select to book a test drive at Shift
+#And I select Get Started on How it Works
+#And I set an address on Appointment Booking
+#And I select a date on Appointment Booking
+#And I input my information on Contact Details
+#And I verify the confirmation page
+#And I cancel the appointment
+
+#Scenario: Switch between TDB At Home and At Shift
+#Given

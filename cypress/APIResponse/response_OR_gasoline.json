@@ -1,0 +1,21 @@
+{
+  "Fees": [
+    {
+      "Name": "County Registration Fee",
+      "Value": 112
+    },
+    {
+      "Name": "Plate Fee",
+      "Value": 24.5
+    },
+    {
+      "Name": "Vehicle Registration Fee",
+      "Value": 132
+    },
+    {
+      "Name": "Title Fee",
+      "Value": 103
+    }
+  ],
+  "Taxes": null
+}

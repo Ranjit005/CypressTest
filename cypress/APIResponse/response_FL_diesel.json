@@ -1,0 +1,34 @@
+{
+  "Fees": [
+    {
+      "Name": "Additional Statutory Fees",
+      "Value": 10.6
+    },
+    {
+      "Name": "Reg Service Charge",
+      "Value": 3
+    },
+    {
+      "Name": "Plate Registration Fee",
+      "Value": 60.75
+    },
+    {
+      "Name": "New Metal Plate Fee",
+      "Value": 28
+    },
+    {
+      "Name": "Title Fee",
+      "Value": 85.25
+    }
+  ],
+  "Taxes": [
+    {
+      "Name": "Sales & Use Tax (6%)",
+      "Value": 2097
+    },
+    {
+      "Name": "County Surtax (1%)",
+      "Value": 50
+    }
+  ]
+}

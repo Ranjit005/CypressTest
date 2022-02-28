@@ -1,0 +1,48 @@
+##Commented scenarios due to problem with rendering page when running on cypress
+
+@Seller
+Feature: Seller Landing Page
+
+  @RegressionTest
+  Scenario: Verify correct load of seller landing page
+    Given I go to the new Seller Lading Page
+    Then verify correct load of seller landing page
+
+  @RegressionTest
+  Scenario: Search valid License Plate
+    Given I go to the new Seller Lading Page
+    When I enter License Plate 'AU' and state 'MO'
+    And I click on Get my estimate on License Plate
+    Then verify successful car result
+    When I click on continue on License Plate
+    Then I should be on quote flow page
+
+  @RegressionTest
+  Scenario: Search invalid License Plate
+    Given I go to the new Seller Lading Page
+    When I enter License Plate '123SAM' and state 'MO'
+    And I click on Get my estimate on License Plate
+  #Then I should see the license plate error message
+
+  @RegressionTest
+  Scenario: Search valid YMM search
+    Given I go to the new Seller Lading Page
+    When I enter new YMM
+      | Year | Make | Model |
+      | 2014 | Audi | A4    |
+    And I click on Get my estimate on YMM
+    Then I should be on quote flow page
+
+  @RegressionTest
+  Scenario: Search valid VIN
+    Given I go to the new Seller Lading Page
+    When I enter new VIN '123SAM'
+    And I click on Get my estimate on VIN
+  #    Then I should be on quote flow page
+
+  @RegressionTest
+  Scenario: Search invalid VIN
+    Given I go to the new Seller Lading Page
+    When I enter new VIN '123SAM'
+    And I click on Get my estimate on VIN
+    Then I should see the VIN error message

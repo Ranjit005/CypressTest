@@ -1,0 +1,22 @@
+@Buyer
+Feature: Shift - Test Drive flow
+
+@RegressionTest
+Scenario: Validate Test Drive flow
+Given I navigate to shop cars Page with required login
+And I enter zipcode and click on update
+And I select Test drive at home filter
+And I click on any car from the list
+And I select a date for Test drive at home date picker
+And I choose an arrival window from the dropdown
+And I click on Book Test drive
+And I click on come to us link
+And I select a time slot
+And I click on Continue button 
+And I click on No thanks button 
+And I enter first name
+And I enter lastname name
+And I enter lastname name
+And I enter Phone Number
+When I click on Reserve button 
+Then I validate We're holding your spot section

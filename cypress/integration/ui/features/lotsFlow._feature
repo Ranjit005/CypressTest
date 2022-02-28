@@ -1,0 +1,83 @@
+#Disabled temporary to avoid the creation of new Lots even if they are inactive
+
+@Internal
+Feature: Lots Flow
+
+  @RegresionTest
+  Scenario: I want to create a new lot
+
+    Given I log into OpsWeb
+    And I navigate to the Lots Page
+    And I open the new lot page
+    And I populate the new lot details
+      | Location                                | VAuto Store         | Buyer Metro Area  |
+      | 920 Peninsula Way, Menlo Park, CA 94025 | South San Francisco | San Francisco, CA |
+    When I create the new lot
+    Then The new lot details are properly saved
+
+
+  @RegresionTest
+  Scenario: I want to update the active state of the lot
+
+    Given I log into OpsWeb
+    And I navigate to the Lots Page
+    And I open the lot details
+    And I update the active state of the lot
+      | Max Distance |
+      | 500          |
+    And I save the lot updates
+    When I enable inactive lots
+    Then The updated active state is reflected in the lots page
+
+  @RegresionTest
+  Scenario: I want to update the lot capabilities
+
+    Given I log into OpsWeb
+    And I navigate to the Lots Page
+    And I enable inactive lots
+    And I open the lot details
+    And I update the lot capabilities
+    And I save the lot updates
+    When I enable inactive lots
+    Then The updated lot capabilities are reflected in the lots page
+
+  @RegresionTest
+  Scenario: I want to update the app pool and location settings
+
+    Given I log into OpsWeb
+    And I navigate to the Lots Page
+    And I enable inactive lots
+    And I open the lot details
+    And I update the location settings
+      | Auto Store | Buyer Metro Area | Come to us Location Id |
+      | Commerce   | Los Angeles, CA  | sch121-fl160796471     |
+    And I save the lot updates
+    When I enable inactive lots
+    Then The updated location settings are reflected in the lots page
+
+  @RegresionTest
+  Scenario: I want to update the escalation settings
+
+    Given I log into OpsWeb
+    And I navigate to the Lots Page
+    And I enable inactive lots
+    And I open the lot details
+    And I update the escalation settings
+      | Escalation Slack Channel Name   | Prep Alert Channel Name    |
+      | AutomationTestEscalationChannel | AutomationTestAlertChannel |
+    And I save the lot updates
+    When I enable inactive lots
+    Then The updated escalation settings are reflected in the lots page
+
+
+  @RegresionTest
+  Scenario: I want to update the lot name
+
+    Given I log into OpsWeb
+    And I navigate to the Lots Page
+    And I enable inactive lots
+    And I open the lot details
+    And I update the lot name
+    And I save the lot updates
+    When I enable inactive lots
+    Then The updated lot name is are reflected in the lots page

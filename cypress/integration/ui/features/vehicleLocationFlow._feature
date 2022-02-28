@@ -1,0 +1,39 @@
+#Feature disabled due to using Lots
+
+#@Internal
+#Feature: Vehicle Location Flow
+
+#  @RegresionTest
+#  Scenario: I want to select a lot for an unallocated vehicle
+
+#    Given I log into OpsWeb
+#    And I navigate to Vehicle Location Page
+#    And I move a vehicle
+#    And I select the lot
+#      | Lot             |
+#      | sch121-lot12344 |
+#    When I save the new vehicle lot
+#    Then The new lot is displayed in the vehicles table
+
+#  @RegresionTest
+#  Scenario: I want to transfer a vehicle to another lot
+
+#    Given I log into OpsWeb
+#    And I navigate to Vehicle Location Page
+#    And I create a transfer demand
+#    And I set the new location for the vehicle
+#      | Explanation    | Lot             |
+#      | AutomationTest | sch121-lot17467 |
+#    When I save the transfer demand
+#    Then The successful transfer demand modal is displayed
+
+#  @RegresionTest
+#  Scenario: I want to book an agent task for a specific vehicle
+
+#    Given I log into OpsWeb
+#    And I book a new agent task
+#    And I fill out the agent booking details
+#      | Summary        | Agent          | Start Time | End Time | Lot                |
+#      | AutomationTest | sch121-ag17638 | 08:00      | 11:00    | sch121-fl191278700 |
+#    When I save the new agent task
+#    Then The new agent task is created
