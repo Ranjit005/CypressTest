@@ -1,0 +1,8 @@
+#on hold until we figure a way to use those features on staging
+Feature: Walk In Appointment Flow
+
+  @RegressionTest
+  Scenario: I want to validate Walk In Appointments landing page
+    Given I navigate to ops page
+    And I navigate to Walk In Appointments Page
+    Then I should see the page properly loaded

@@ -1,0 +1,30 @@
+{
+  "Fees": [
+    {
+      "Name": "Registration Fee",
+      "Value": 8
+    },
+    {
+      "Name": "Air Quality Fee",
+      "Value": 1.75
+    },
+    {
+      "Name": "Title Fee",
+      "Value": 4
+    }
+  ],
+  "Taxes": [
+    {
+      "Name": "City Tax (1.8%)",
+      "Value": 191.7
+    },
+    {
+      "Name": "Sales Tax (5.6%)",
+      "Value": 596.4
+    },
+    {
+      "Name": "Vehicle License Tax",
+      "Value": 190.28
+    }
+  ]
+}

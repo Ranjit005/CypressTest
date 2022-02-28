@@ -1,0 +1,19 @@
+{
+  "baseUrl": "https://forcebase1.a.shiftdev.io",
+  "testFiles": "**/ui/**/*.spec.ts",
+  "video": true,
+  "defaultCommandTimeout": 90000,
+  "execTimeout": 20000,
+  "taskTimeout": 20000,
+  "pageLoadTimeout": 30000,
+  "requestTimeout": 20000,
+  "responseTimeout": 30000,
+  "screenshotsFolder": "reports/ui/screenshots",
+  "videosFolder": "reports/ui/videos",
+  "userAgent": "dpxdt-ZHGr3FnW8JnEu6ppR207j53p82koykKe",
+  "chromeWebSecurity": false,
+  "env": {
+    "allureResultsPath": "reports/ui/allure-results",
+    "foo": "local"
+  }
+}

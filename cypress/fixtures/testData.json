@@ -1,0 +1,194 @@
+[
+  {
+    "applicationType": "TitleAndRegistration",
+    "owner": {
+      "firstName": "John",
+      "isIndividual": true,
+      "lastName": "Doe",
+      "ownerType": "Individual"
+    },
+    "plateDestination": {
+      "name": "John Doe",
+      "type": "Owner"
+    },
+    "registration": {
+      "action": "NewRegistration",
+      "address": {
+        "city": "Temple",
+        "county": "Maricopa",
+        "state": "AZ",
+        "street": "25 W University Dr",
+        "zipCode": "85281",
+        "zipCodeExt": 1234
+      }
+    },
+    "vehicle": {
+      "bodyType": "hatchback",
+      "curbWeight": 2980,
+      "currentLicensePlateState": "CA",
+      "documentFees": 500,
+      "fuelType": "electric",
+      "grossWeightRating": 16700,
+      "horsepower": 355,
+      "listingState": "CA",
+      "manufacturesSuggestedRetailPrice": 31800,
+      "milesPerGallon": {
+        "city": 122,
+        "highway": 108
+      },
+      "numberOfDoors": 4,
+      "numberOfLienholders": 0,
+      "numberOfPlates": 1,
+      "odometerReading": 28180,
+      "sellingPrice": 10650,
+      "taxableSellingPrice": 10650,
+      "tradeInValue": 0,
+      "vin": "3C3CFFGE1FT695525",
+      "year": 2015
+    }
+  },
+  {
+    "applicationType": "TitleAndRegistration",
+    "owner": {
+      "firstName": "John",
+      "isIndividual": true,
+      "lastName": "Doe",
+      "ownerType": "Individual"
+    },
+    "plateDestination": {
+      "name": "John Doe",
+      "type": "Owner"
+    },
+    "registration": {
+      "action": "NewRegistration",
+      "address": {
+        "city": "Los Angeles",
+        "county": "Los Angeles",
+        "state": "CA",
+        "street": "437 S Hill",
+        "zipCode": "90013",
+        "zipCodeExt": 1234
+      }
+    },
+    "vehicle": {
+      "bodyType": "sedan",
+      "curbWeight": 3560,
+      "currentLicensePlateState": "CA",
+      "documentFees": 85,
+      "fuelType": "electric-gas-hybrid",
+      "grossWeightRating": 4000,
+      "horsepower": 193,
+      "listingState": "CA",
+      "manufacturesSuggestedRetailPrice": 30100,
+      "milesPerGallon": {
+        "city": 38,
+        "highway": 43
+      },
+      "numberOfDoors": 4,
+      "numberOfLienholders": 0,
+      "numberOfPlates": 1,
+      "odometerReading": 22716,
+      "sellingPrice": 22400,
+      "taxableSellingPrice": 22400,
+      "tradeInValue": 0,
+      "vin": "KMHE34L11HA047886",
+      "year": 2018
+    }
+  },
+  {
+    "applicationType": "TitleAndRegistration",
+    "owner": {
+      "firstName": "John",
+      "isIndividual": true,
+      "lastName": "Doe",
+      "ownerType": "Individual"
+    },
+    "plateDestination": {
+      "name": "John Doe",
+      "type": "Owner"
+    },
+    "registration": {
+      "action": "NewRegistration",
+      "address": {
+        "city": "Coral Gables",
+        "county": "Miami-dade",
+        "state": "FL",
+        "street": "50 Minorca Avenue",
+        "zipCode": "33134",
+        "zipCodeExt": 1234
+      }
+    },
+    "vehicle": {
+      "bodyType": "pickup",
+      "curbWeight": 5452,
+      "currentLicensePlateState": "CA",
+      "documentFees": 500,
+      "fuelType": "diesel",
+      "grossWeightRating": 6800,
+      "horsepower": 240,
+      "listingState": "CA",
+      "manufacturesSuggestedRetailPrice": 42095,
+      "milesPerGallon": {
+        "city": 17,
+        "highway": 25
+      },
+      "numberOfDoors": 4,
+      "numberOfLienholders": 0,
+      "numberOfPlates": 1,
+      "odometerReading": 72341,
+      "sellingPrice": 34950,
+      "taxableSellingPrice": 34950,
+      "tradeInValue": 0,
+      "vin": "1C6RR6NM2HS863241",
+      "year": 2017
+    }
+  },
+  {
+    "applicationType": "TitleAndRegistration",
+    "owner": {
+      "firstName": "John",
+      "isIndividual": true,
+      "lastName": "Doe",
+      "ownerType": "Individual"
+    },
+    "plateDestination": {
+      "name": "John Doe",
+      "type": "Owner"
+    },
+    "registration": {
+      "action": "NewRegistration",
+      "address": {
+        "city": "Portland",
+        "county": "Multnomah",
+        "state": "OR",
+        "street": "1300 SW Park Ave",
+        "zipCode": "97201",
+        "zipCodeExt": 1234
+      }
+    },
+    "vehicle": {
+      "bodyType": "sedan",
+      "curbWeight": 2921,
+      "currentLicensePlateState": "OR",
+      "documentFees": 85,
+      "fuelType": "gasoline",
+      "grossWeightRating": 3737,
+      "horsepower": 174,
+      "listingState": "OR",
+      "manufacturesSuggestedRetailPrice": 22995,
+      "milesPerGallon": {
+        "city": 30,
+        "highway": 39
+      },
+      "numberOfDoors": 4,
+      "numberOfLienholders": 1,
+      "numberOfPlates": 1,
+      "odometerReading": 62670,
+      "sellingPrice": 16500,
+      "taxableSellingPrice": 11500,
+      "tradeInValue": 5000,
+      "vin": "19XFB2F97FE201190",
+      "year": 2015
+    }
+  }
+]

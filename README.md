@@ -1,24 +1,59 @@
-# CypressTest
+# cy-fy
 
-Simple Initiative to create a frame work for both UI and API.
-1>Project consists two Folder UI and API
-2>For initializing the project needs to do 
+Cypress automation testing. Simple and neat folder structure in combination with typescript will help you write test faster.
 
-npm install
+## Get started
 
-3>Make Sure all the packages are installed under node_modules
-4>For Running UI Project below commands needs to trigger
-npm run TestUI
-npm run AllureReport
-npm run AllureOpen
+#### System Requirement
 
-5>For Running API Project below commands needs to trigger
-npm run TestAPI
-npm run AllureReport
-npm run AllureOpen
+- Git (download form [here](https://git-scm.com/downloads))
+- Node (download from [here](https://nodejs.org/en/download/))
+- Chrome, Firefox Edge or any other browser
 
-This is my 1st Cypress Framework , Please let me know if you find any issue.
-Even You can contact me on my Whatsapp:+91-8763722054
+#### Project setup
 
-Thanks and Happy Learning................
+- Git clone the project
+- install dependencies by `npm install`
 
+
+## Run Tests locally
+
+#### Setup local env
+
+Many of the features of the automation project relies on credentials that are stored on github secrets for security reasons. 
+When running locally you will need to update cypress.json with these properties
+
+```js
+"env": {
+    "STAGING_TOKEN": "",
+    "STAGING_USER": "",
+    "STAGING_PASS": "",
+    "MAILOSAUR_API_KEY": "",
+    "MAIL_SERVER_ID": "",
+    "MAIL_SERVER_DOMAIN": "",
+    "OKTA_OPS_USEROKTA_OPS_PASS": ""
+  }
+```
+for the actual values of the properties ask on the #qa slack channel
+
+#### Open and Run Cypress on UI mode
+
+```js
+// locate on the project root folder and execute:
+node_modules/.bin/cypress open
+//Then select the feature that you will like to run
+```
+
+#### Run Cypress from command line
+
+```js
+// locate on the project root folder and execute:
+node_modules\\.bin\\cypress run --headed
+```
+
+#### Run Cypress from command line on headless mode
+
+```js
+// locate on the project root folder and execute:
+node_modules\\.bin\\cypress run --headed
+```

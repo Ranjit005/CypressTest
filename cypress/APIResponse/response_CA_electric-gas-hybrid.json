@@ -1,0 +1,42 @@
+{
+  "Fees": [
+    {
+      "Name": "Transportation Improvement Fee",
+      "Value": 55
+    },
+    {
+      "Name": "Reflectorized Plate Fee",
+      "Value": 1
+    },
+    {
+      "Name": "California Highway Patrol Fee",
+      "Value": 28
+    },
+    {
+      "Name": "Registration Fee",
+      "Value": 61
+    },
+    {
+      "Name": "County District Fee",
+      "Value": 11
+    },
+    {
+      "Name": "Vehicle License Fee",
+      "Value": 146
+    },
+    {
+      "Name": "Alternative Fuel",
+      "Value": 3
+    }
+  ],
+  "Taxes": [
+    {
+      "Name": "State Tax (7.25%)",
+      "Value": 1624
+    },
+    {
+      "Name": "City Tax (2.25%)",
+      "Value": 504
+    }
+  ]
+}
