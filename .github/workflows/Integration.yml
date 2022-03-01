@@ -1,35 +1,41 @@
-# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+name: Regression Workflow
 
-name: Test Different Action of GitHub Action
 on:
-  push:
+  pull_request:
     branches:
-      - 'main'
+      - master
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron: '30 12 * * *'
+  workflow_dispatch:
 
 jobs:
-  cypress-test:
-    name: Run on Chrome 98
+  cypress-run:
     runs-on: ubuntu-latest
-   # container: cypress/browsers:node12.19.0-chrome86-ff82
+    timeout-minutes: 15
     strategy:
       fail-fast: false
       matrix:
-        containers: [1, 2, 3]
+        containers: [1, 2, 3, 4, 5]
     steps:
+      - run: echo "TEMP PIPELINE FOR Fix-GithubSecrets"
+      - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+      - run: echo "The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+
       - uses: actions/checkout@v2
       - name: Check Cypress cache
         run: |
-            npx cypress cache path
-            npx cypress cache list
+          npx cypress cache path
+          npx cypress cache list
       - name: restore / cache the binary
         id: cache-cypress
         uses: actions/cache@v1
         with:
-            path: ~/.cache/Cypress
-            key: >-
-                cypress-cache-v2-${{ runner.os }}-${{ hashFiles('**/package.json')
-                }}
+          path: ~/.cache/Cypress
+          key: >-
+            cypress-cache-v2-${{ runner.os }}-${{ hashFiles('**/package.json')
+            }}
       - name: Install cypress and verify
         run: |
           npm ci
@@ -37,30 +43,29 @@ jobs:
       - name: Cypress run Chrome
         uses: cypress-io/github-action@v2
         with:
-          config-file: cypress/integration/Config.json
-          spec: cypress/integration/*/*.feature
+          #config-file: cypress/integration/Config.json
+          spec: cypress/integration/*/*/*.feature
           browser: chrome
           parallel: true
           record: true
+
         env:
-          allure: true
-          TAGS: '@Smoke'
-          CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }} 
-      - name: Cypress run Firefox
-        uses: cypress-io/github-action@v2
+          CYPRESS_QA_AUTH_TOKEN_BUYER: ${{ secrets.QA_AUTH_TOKEN_BUYER }}
+          CYPRESS_QA_AUTH_TOKEN_INTERNAL: ${{ secrets.QA_AUTH_TOKEN_INTERNAL }}
+          CYPRESS_QA_AUTH_TOKEN_SELLER: ${{ secrets.QA_AUTH_TOKEN_SELLER }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CYPRESS_APIPASSWORD: ${{ secrets.CYPRESS_APIPASSWORD }}
+          CYPRESS_APIUSERNAME: ${{ secrets.CYPRESS_APIUSERNAME }}
+          CYPRESS_TOKEN: ${{ secrets.CYPRESS_TOKEN }}
+          CYPRESS_STAGING_TOKEN: ${{ secrets.CYPRESS_STAGING_TOKEN }}
+          CYPRESS_STAGING_USER: ${{ secrets.CYPRESS_STAGING_USER }}
+          CYPRESS_STAGING_PASS: ${{ secrets.CYPRESS_STAGING_PASS }}
+          CYPRESS_OKTA_OPS_USER: ${{ secrets.CYPRESS_OKTA_OPS_USER }}
+          CYPRESS_OKTA_OPS_PASS: ${{ secrets.CYPRESS_OKTA_OPS_PASS }}
+
+      - name: Upload Screenshot Artifacts
+        uses: actions/upload-artifact@v1
+        if: failure()
         with:
-          config-file: cypress/integration/Config.json
-          spec: cypress/integration/*/*.feature
-          browser: firefox
-          parallel: true
-          record: true
-        env:
-          allure: true
-          TAGS: '@Regression'
-          CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }} 
-      
-
-     
-
+          name: cypress-screenshots
+          path: cypress/screenshots
