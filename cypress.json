@@ -1,12 +1,13 @@
 {
   "userAgent": "dpxdt-ZHGr3FnW8JnEu6ppR207j53p82koykKe",
-  "baseUrl": "https://staging.shift.com/",
+  "baseUrl": "https://staging.shift.com",
   "env": {
     "username": "test-buyer@shift.com",
     "password": "forensic-mildew-coif-proper",
-    "OPS_URL": "https://operations.staging.shiftdev.io/",
+    "OPS_URL": "https://operations.staging.shiftdev.io",
     "OKTA_OPS_USER": "test-buyer@shift.com",
-    "OKTA_OPS_PASS": "IX[2ceUJ076t"
+    "OKTA_OPS_PASS": "IX[2ceUJ076t",
+    "TAGS":"@Buyer"
   },
   "defaultCommandTimeout": 30000,
   "viewportHeight": 900,

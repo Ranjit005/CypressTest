@@ -11,7 +11,7 @@
   "author": "Umar Mohammad",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "8.5.0",
+    "cypress": "^9.5.1",
     "cypress-cucumber-preprocessor": "^4.0.3",
     "cypress-mailosaur": "^2.6.0",
     "cypress-react-selector": "2.2.0",
