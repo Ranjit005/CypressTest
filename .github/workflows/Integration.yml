@@ -50,6 +50,7 @@ jobs:
           record: true
 
         env:
+          TAGS: '@Buyer'
           CYPRESS_QA_AUTH_TOKEN_BUYER: ${{ secrets.QA_AUTH_TOKEN_BUYER }}
           CYPRESS_QA_AUTH_TOKEN_INTERNAL: ${{ secrets.QA_AUTH_TOKEN_INTERNAL }}
           CYPRESS_QA_AUTH_TOKEN_SELLER: ${{ secrets.QA_AUTH_TOKEN_SELLER }}
