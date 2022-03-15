@@ -48,7 +48,7 @@ jobs:
           browser: chrome
           parallel: true
           record: true
-          tag: Seller
+          tag: RegressionTest
 
         env:
           #Line Number 55 and 56 have been added by me
