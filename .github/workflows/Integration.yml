@@ -48,9 +48,9 @@ jobs:
           browser: chrome
           parallel: true
           record: true
+          tag: Seller
 
         env:
-          TAGS: '@Seller'
           #Line Number 55 and 56 have been added by me
           CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}

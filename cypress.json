@@ -6,8 +6,7 @@
     "password": "forensic-mildew-coif-proper",
     "OPS_URL": "https://operations.staging.shiftdev.io",
     "OKTA_OPS_USER": "test-buyer@shift.com",
-    "OKTA_OPS_PASS": "IX[2ceUJ076t",
-    "TAGS":"@Seller"
+    "OKTA_OPS_PASS": "IX[2ceUJ076t"
   },
   "defaultCommandTimeout": 30000,
   "viewportHeight": 900,

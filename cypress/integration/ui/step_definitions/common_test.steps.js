@@ -13,20 +13,25 @@ And('I validate Modal {string}', (text) => {
 });
 
 //-----------------Changes By Ranjit------------------
-Given('I Login To System and Validate Something', (text) => {
-  cy.visit('https://operations.staging.shiftdev.io/sign_in')
-  cy.wait(5000)
-  cy.xpath("//input[@type='submit']").click()
-  cy.wait(3000)
-  cy.xpath("//input[@id='okta-signin-username']").type('test-buyer@shift.com')
-  cy.xpath("//input[@id='okta-signin-password']").type('IX[2ceUJ076t')
-  cy.wait(2000)
-  cy.xpath("//input[@id='okta-signin-submit']").click()
-  Cypress.Cookies.defaults({
-    preserve: /.*/,
-  });
-  cy.visit('https://operations.staging.shiftdev.io/welcome')  
-  //return cy.get('div[class*=Modal__is-open]').contains(text);
+Given('I Login To System and Validate Something', () => {
+  cy.request({
+    method: 'POST',
+    url:'https://identity.staging.shiftdev.io/api/v1/tokens?',
+    headers:
+    {
+      "Content-Type":"application/json"
+    },
+    body:{
+      "grant_type":"client_credentials",
+    "client_id":"b82c8082-a417-49df-affd-b029e39bdbdb",
+    "client_secret":"fmTZyTg3QezNg9RHS6rwdjKNqg9g97i79ohgdLx1MDpizUEKVRs8ku283USXXjoqFLYCTMttwZCtMCRaTC3C8RcVhUpC7QsB8e9vCuVhHy1HtuAzMAr91ogmMomYcxvkSrtKePfLBaoqSfRUmx59RtMbb9fVkjN5GHU5C8yRVAsWJTnSGCKQrTXq5xVyUYZWcoEZxQVgRoh3VboRWyZ9L9nGfdcJr1Hspe7A8YFiMQyQkLurBYPrZjMDmQ3b14E4"
+    }
+  }).then((res)=>{
+    cy.log(JSON.stringify(res))
+    var token=res.access_token
+    cy.log(token)
+  })
+  
 });
 
 
