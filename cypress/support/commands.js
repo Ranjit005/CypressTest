@@ -28,6 +28,96 @@
 //   // failing the test
 //   return false;
 // });
+import { OktaAuth } from '@okta/okta-auth-js'
+
+Cypress.Commands.add('loginOktaass', () => {
+  const optionsSessionToken = {
+    method: 'POST',
+    url:'https://shift.okta.com/api/v1/authn',
+    body: {
+      username: 'test-buyer@shift.com',
+      password: 'IX[2ceUJ076t',
+      options: {
+        warnBeforePasswordExpired: 'true'
+      }
+    }
+  }
+
+  cy.request(optionsSessionToken).then(response => {
+    const sessionToken = response.body.sessionToken;
+    const qs = {
+      client_id: '0oa46r4haoVigNat7696',
+      state:'169900592452b48377e0737041e7b9f371c2294ab23a59e2',
+      redirect_uri: 'https://operations.staging.shiftdev.io/users/auth/okta/callback',
+      code_challenge_method: 'S256',
+      response_mode: 'fragment',
+      response_type: 'code',
+      scope: ['openid', 'profile', 'email','offline_access','groups'],
+      sessionToken: sessionToken
+    }
+
+    cy.request({
+      method: 'GET',
+      url: 'https://shift.okta.com/oauth2/v1/authorize',
+      form: true,
+      followRedirect: false,
+      qs: qs
+    }).then(responseWithToken => {
+      const redirectUrl = responseWithToken.redirectedToUrl;
+      const accessToken = redirectUrl
+      .substring(redirectUrl.indexOf('access_token'))
+      .split('=')[1]
+      .split('&')[0];
+      cy.wrap(accessToken).as('accessToken');
+      cy.visit(redirectUrl);
+      cy.visit(redirectUrl).then(() => {
+        cy.visit('')
+      });
+    });
+  });
+})
+
+Cypress.Commands.add('loginByOktaApi', () => {
+  cy.request({
+    method: 'POST',
+    url: `https://shift.okta.com/api/v1/authn`,
+    body: {
+      "username":"test-buyer@shift.com",
+      "password":"IX[2ceUJ076t",
+      "options":{"warnBeforePasswordExpired":true,"multiOptionalFactorEnroll":true}
+    },
+  }).then(({ body }) => {
+    const user = body._embedded.user
+    const config = {
+      issuer: `https://shift.okta.com/oauth2/v1/authorize`,
+      clientId: '0oa46r4haoVigNat7696',
+      redirectUri: 'https://operations.staging.shiftdev.io/users/auth/okta/callback',
+      scope: ['openid', 'email', 'profile'],
+    }
+
+    const authClient = new OktaAuth(config)
+
+    return authClient.token
+      .getWithoutPrompt({ sessionToken: body.sessionToken })
+      .then(({ tokens }) => {
+        const userItem = {
+          token: tokens.accessToken.value,
+          user: {
+            sub: user.id,
+            email: user.profile.login,
+            given_name: user.profile.firstName,
+            family_name: user.profile.lastName,
+            preferred_username: user.profile.login,
+          },
+        }
+
+        window.localStorage.setItem('oktaCypress', JSON.stringify(userItem))
+
+        log.snapshot('after')
+        log.end()
+      })
+  })
+})
 
 Cypress.Commands.add('any', { prevSubject: 'element' }, (subject, size = 1) => {
   cy.wrap(subject).then(elementList => {

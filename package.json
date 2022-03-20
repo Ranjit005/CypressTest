@@ -11,6 +11,7 @@
   "author": "Umar Mohammad",
   "license": "ISC",
   "devDependencies": {
+    "@okta/okta-auth-js": "^6.2.0",
     "cypress": "^9.5.1",
     "cypress-cucumber-preprocessor": "^4.0.3",
     "cypress-mailosaur": "^2.6.0",

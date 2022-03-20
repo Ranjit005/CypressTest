@@ -24,5 +24,10 @@ module.exports = (on, config) => {
 const cucumber = require('cypress-cucumber-preprocessor').default
 
 module.exports = (on, config) => {
+  config.env.auth_username ='test-buyer@shift.com'
+  config.env.auth_password = 'IX[2ceUJ076t'
+  config.env.okta_domain = 'shift.okta.com'
+  config.env.okta_client_id ='b82c8082-a417-49df-affd-b029e39bdbdb'
   on('file:preprocessor', cucumber())
+  return config
 }
