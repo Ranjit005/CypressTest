@@ -13,11 +13,11 @@
   "devDependencies": {
     "@okta/okta-auth-js": "^6.2.0",
     "cypress": "^9.5.1",
-    "cypress-cucumber-preprocessor": "^4.0.3",
-    "cypress-mailosaur": "^2.6.0",
-    "cypress-react-selector": "2.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-mailosaur": "^2.7.0",
+    "cypress-react-selector": "^2.2.0",
     "cypress-xpath": "^1.6.2",
-    "typescript": "^3.2.1"
+    "typescript": "^3.9.10"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false,
