@@ -67,7 +67,7 @@ jobs:
           CYPRESS_OKTA_OPS_USER: ${{ secrets.CYPRESS_OKTA_OPS_USER }}
           CYPRESS_OKTA_OPS_PASS: ${{ secrets.CYPRESS_OKTA_OPS_PASS }}
 
-      - name: Upload Screenshot Artifacts
+      - name: Upload Screenshot Artifactss
         uses: actions/upload-artifact@v1
         if: failure()
         with:
